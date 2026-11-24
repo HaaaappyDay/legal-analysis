@@ -1,0 +1,11 @@
+# Runtime settings and credentials local to this checkout
+/.agents/
+/.codex/
+/.aws/
+/.env
+/.env.*
+!/.env.example
+
+# Locally generated legal reviews
+/legal-qa-review.md
+/legal-qa-review-[0-9]*.md
