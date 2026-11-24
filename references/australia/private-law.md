@@ -11,3 +11,7 @@
 | 遗嘱、遗产管理与家庭供养请求 | 查死亡日、住所、资产所在地、遗嘱形式与能力、遗产管理授权、合资格申请人及期限。确认资产是否进入遗产；联名持有方式、养老金死亡给付与信托需另查文件。引用 NSW *Succession Act 2006* s 58 回答期限时，核对起算事实及法定例外。[NSW Succession Act 历史版本](https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-08-25/act-2006-080) |
 
 **核引示例。** NSW 租客问“热水器坏了，我能否找人修了让房东付钱？”原答援引房东维修义务。该引文可支持义务存在；评审补充 ss 62–64，查是否符合紧急情形、通知或合理联系尝试、给予处理机会、维修人员及费用条件。把故障性质和通知经过写入结论中的条件。[NSW 紧急维修指引](https://www.nsw.gov.au/housing-and-construction/rules/urgent-repairs-residential-rental-properties)
+
+**同一问题换州。** 房东住悉尼、出租房在墨尔本，住宅维修先查维州规则；所引 NSW 网页可以准确转述新州做法，却不足以回答这处房屋的问题。若只知道房屋在澳大利亚，应将报销上限和申请渠道列为待确定项。以两地主管部门的说明比较，符合各自条件时，自行安排紧急维修的费用限额分别为新州1,000澳元、维州2,500澳元。用于个案时再核查事件日期及当期条文。[新州维修说明](https://www.nsw.gov.au/housing-and-construction/renting-a-place-to-live/getting-repairs-done) · [维州维修说明](https://www.consumer.vic.gov.au/housing/renting/repairs-alterations-safety-and-pets/repairs/repairs-in-rental-properties)
+
+**跨州的两个不同问题。** 侵权案件分别查侵权发生地、起诉地和特别立法；在 ACT 起诉也可能适用 NSW 的实体侵权法。遗产跨州时，分别查死者住所、资产种类与所在地、已有授权书的签发地；问“能否凭外州授权处理新州资产”时，查当地对外州授权的承认或重新盖印（reseal）程序。[John Pfeiffer v Rogerson [2000] HCA 36](https://www.hcourt.gov.au/sites/default/files/eresources/2000/HCA/36.pdf) · [新州最高法院关于 reseal 的指引](https://supremecourt.nsw.gov.au/wills-probate/applications/reseal-of-grant.html)

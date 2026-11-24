@@ -1,5 +1,7 @@
 # 劳动、产业关系、职业安全与工伤
 
+**西澳例子。** 用户说“我在珀斯被辞退”，仍需查劳动合同上的实际雇主及组织形式。若雇主是在西澳经营的 sole trader，先查西澳劳动关系体系；若属于全国体系覆盖的雇主，再按联邦途径核验。只给出工作城市时，可以解释这两个分支，保留申请机关与适用期限的判断。[Fair Work Ombudsman 的覆盖说明，Western Australia 小节](https://www.fairwork.gov.au/about-us/workplace-laws/fair-work-system)
+
 | 事项 | 核引时应区分的判断 |
 |---|---|
 | 工资、劳动条件与解雇 | 查工作地点、雇主组织形式、雇用性质、适用工作关系体系、award 或 enterprise agreement。判断不公平解雇时分别审查申请资格、dismissal 是否发生、生效日期、申请期限及是否可延长。其他 general protections 或合同请求需单独找法源。[Fair Work Act 2009 (Cth)](https://www.legislation.gov.au/C2009A00028/latest/details) · [Fair Work Ombudsman 的覆盖说明](https://www.fairwork.gov.au/about-us/workplace-laws/fair-work-system) |
