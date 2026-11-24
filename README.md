@@ -2,22 +2,22 @@
 
 `legal-analysis` 是一套中文 Agent Skill，用于评审中国大陆和澳大利亚法律问答。输入一道或多道题、对应回答和原引用，得到一份逐题评审的 Markdown 报告。报告分别说明回答是否成立、原引用实际支持什么，以及新找到的法条或判决如何补充或改变结论。
 
-## 在 Codex 中安装
+## 安装
 
 在准备评审问答的项目目录运行：
 
 ```sh
-npx skills add HaaaappyDay/legal-analysis --skill legal-analysis --agent codex
+npx skills add HaaaappyDay/legal-analysis --skill legal-analysis
 ```
 
-默认安装到当前项目。要在多个项目中使用，可在命令末尾加 `-g`。安装后，在 Codex 中用 `$legal-analysis` 调用。[skills CLI 安装说明](https://github.com/vercel-labs/skills#install-a-skill)
+安装时可按提示选择你使用的 Agent。默认安装到当前项目；要在多个项目中使用，可在命令末尾加 `-g`。[skills CLI 安装说明](https://github.com/vercel-labs/skills#install-a-skill)
 
 在线核验法源需要 Agent 具备网页搜索或读取能力，生成报告需要工作目录的写入权限。
 
 ## 试一道题
 
 ```text
-请用 $legal-analysis 评审下面的问答，将报告保存为 legal-qa-review.md。
+请使用 legal-analysis 技能评审下面的问答，将报告保存为 legal-qa-review.md。
 
 法域和时间：中国大陆，2023 年。
 问题：我签了房屋买卖合同，还没办过户，合同有效吗？
