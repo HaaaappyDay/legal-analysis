@@ -2,20 +2,22 @@
 
 ## 有正文链接，先用 fetch 直读
 
-将用户提供的官方正文 URL 直接传给 fetch，核对法域、版本或判决身份，再定位相关条款或段落。以下为 2026-11-24 在当前 Agent 环境中成功直读的两个样本。
+将用户提供的官方正文 URL 直接传给 fetch，核对法域、版本或判决身份，再定位相关条款或段落。以下材料用于演示定位方法，能否访问及实际取得的内容以本次工具返回为准。
 
-| 官方材料 | 实际读到的位置与核验边界 |
+| 定位示例 | 读取时应核对的位置与边界 |
 |---|---|
-| [《Competition and Consumer Act 2010》(Cth) 附表2，联邦登记册 HTML](https://www.legislation.gov.au/C2004A00109/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_4/document_4.html) | 2025年2月21日版 s 260(1)，能核对货物不符合保证时构成 major failure 的条件。仅用于该历史版本；评价退款权还需读相应救济条款。 |
-| [ACCC v TPG Internet Pty Ltd [2013] HCA 54，高等法院判决 PDF](https://www.hcourt.gov.au/sites/default/files/eresources/2013/HCA/54.pdf) | 第45段，可读到多数意见对广告主要信息的分析；结合同一意见第46–53段评价原回答。需要评价判例后续效力时另查后案。 |
+| [《Competition and Consumer Act 2010》(Cth) 附表2，联邦登记册 HTML](https://www.legislation.gov.au/C2004A00109/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_4/document_4.html) | 核对2025年2月21日版及 s 260(1)，定位货物不符合保证时构成 major failure 的条件。该链接仅用于历史版本定位；评价退款权还需读相应救济条款，并另核本题适用版本。 |
+| [ACCC v TPG Internet Pty Ltd [2013] HCA 54，高等法院判决 PDF](https://www.hcourt.gov.au/sites/default/files/eresources/2013/HCA/54.pdf) | 定位第45–53段，核对多数意见对广告主要信息及呈现方式的分析。需要评价判例后续效力时另查后案。 |
 
 ## 缺少链接或直读失败，用 search 定位
 
 查联邦法可搜 `site:legislation.gov.au "Competition and Consumer Act 2010" "259" "260" 2025-02-21`。若只读到目录或 latest/details 页，继续找日期版正文和对应卷册。查判决可搜 `site:hcourt.gov.au "TPG" "[2013] HCA 54"`，按案名与 `judgment PDF` 定位裁判理由；只有 catchwords、摘要或当事人提交书时标明材料类型。
 
-**NSW 历史法例：从搜索结果打开索引副本。** 直接读取抽查的新州租赁法现行 HTML 和历史 PDF 时，工具返回 403。改搜 `site:legislation.nsw.gov.au "Residential Tenancies Act 2010" "urgent repairs" April 2025`，从工具返回的搜索结果打开官方 PDF 的索引副本，在文内找 `Landlord’s general obligation`、`Urgent repairs to residential premises` 和页脚的版本区间。实测从结果打开可读到第48–50页的 ss 62–64，页脚标明适用期为2024年12月13日至2025年5月18日；把同一 URL 直接交给 fetch 仍返回 403。仅在工具实际提供连续正文和版本信息时使用这条路径。只有摘要时，记“已定位，原文未核”；州政府办事说明可单独列为说明性材料。[已定位的官方历史 PDF](https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-04-25/act-2010-042)
+**NSW 历史法例：直读失败后的替代路径。** 本次直接读取所需 HTML 或 PDF 失败时，可按法名、争点和适用日期搜索。例如查2025年4月的租赁规则，可搜 `site:legislation.nsw.gov.au "Residential Tenancies Act 2010" "urgent repairs" April 2025`。若工具提供官方 PDF 的索引副本，打开后在文内找 `Landlord’s general obligation`、`Urgent repairs to residential premises`，并核对页脚的版本区间。仅在实际读到材料身份、连续正文和对应版本时，记录相应范围已核；搜索结果可读不保证同一 URL 的其他读取方式也可用。只有摘要时，记“已定位，原文未核”；州政府办事说明可单独列为说明性材料。[历史版本定位示例](https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-04-25/act-2010-042)
 
-**后案。** LawCite 查询入口在本工具中返回 403。Agent 默认搜“中立引注＋后案案名或争点”，再打开法院判决理由，核对法院怎样处理原案。首项可能是当事人提交书，要看文书首部。仅就实际读到的后案报告核验结果。
+**后案。** 可尝试当前环境能够使用的引证数据库，包括 LawCite；是否可用以本次访问结果为准。数据库访问失败或缺少所需查询能力时，按中立引注、案名及争点检索后续判决，再打开法院判决理由核对其怎样处理原案。首项可能是当事人提交书，要看文书首部。仅就实际读到的后案报告核验结果。
+
+过去的成功读取或失败结果另存于[历史访问观察](../search-observations.md)，仅供排查时参考，不据此预设数据库不可用或把旧核验结果当作本次核验。
 
 ## 找规定及适用版本
 
