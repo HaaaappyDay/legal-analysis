@@ -1,11 +1,11 @@
-# 附则与时间效力（第1259—1260条）
+# Supplementary Provisions and temporal application (Articles 1259–1260)
 
-第1259条解释民法典使用的数量边界用语；核对法定门槛时要区分含本数和不含本数。第1260条规定施行日为2021年1月1日，并列出同时废止的婚姻法、继承法、民法通则、收养法、担保法、合同法、物权法、侵权责任法和民法总则。[民法典附则](https://www.court.gov.cn/zixun/xiangqing/233181.html)
+Article 1259 explains terms defining numerical boundaries in the Civil Code; distinguish inclusive and exclusive thresholds when checking statutory limits. Article 1260 sets the effective date as January 1, 2021, and lists the laws repealed on that date: the Marriage Law, Succession Law, General Principles of Civil Law, Adoption Law, Guarantee Law, Contract Law, Property Law, Tort Liability Law, and General Provisions of Civil Law. [Civil Code, Supplementary Provisions](https://www.court.gov.cn/zixun/xiangqing/233181.html)
 
-## 怎样审查旧法引文
+## How to review citations to former law
 
-1. 固定被审查的命题。合同成立、履行、违约与解除可能在不同日期，审一个争点就标出与它有关的法律事实、行为是否持续以及审理阶段。
-2. 依民法典时间效力规定第一条，区分施行后、施行前和跨越施行日的法律事实。再查该规定中与争点直接有关的具体溯及和衔接条款，包括有无特别规定、当时有无具体规则等。原判已经终审而申请再审时另看第五条。[最高法关于适用民法典时间效力的若干规定](https://www.court.gov.cn/zixun/xiangqing/282051.html)
-3. 到数据库取出当时版本及相应司法解释，比较被引原文和新条款。对“结论在新旧法下相同但原引时点错误”和“适用不同版本会改变结果”分别说明。缺少日期时列出分支和需要补充的事实。[国家法律法规数据库](https://flk.npc.gov.cn/)
+1. Fix the proposition under review. Contract formation, performance, breach, and termination may occur on different dates. For each issue, identify the relevant legally significant facts, whether the conduct continued over time, and the stage of proceedings.
+2. Under Article 1 of the Provisions on the Temporal Application of the Civil Code, distinguish facts occurring after, before, or across the effective date. Then check the specific retroactive and transitional provisions directly relevant to the issue, including whether special provisions apply and whether specific rules existed at the time. For a retrial application after a final judgment, also consider Article 5. [SPC Provisions on Several Issues Concerning the Temporal Application of the Civil Code](https://www.court.gov.cn/zixun/xiangqing/282051.html)
+3. Retrieve the version applicable at the time and corresponding judicial interpretations from the database; compare the cited original text with the new provisions. Distinguish “the conclusion is the same under both versions, but the citation is temporally incorrect” from “applying different versions changes the result.” If dates are missing, set out the alternative analyses and additional facts needed. [National Database of Laws and Regulations](https://flk.npc.gov.cn/)
 
-**评审示例**　2019年订立的合同约定分期交付，某期在2021年后履行。用户引旧《合同法》，原回答以“现已废止”一概排除。评审应先问争议源于哪一期履行；对跨期合同履行争议，补充核对时间效力规定第二十条，再分别判断订约与履行所涉规则。[时间效力规定第二十条](https://www.court.gov.cn/zixun/xiangqing/282051.html)
+**Review example** A contract concluded in 2019 provides for delivery in installments, one of which is performed after 2021. The user cites the former Contract Law, and the original answer rejects it categorically because it “has now been repealed.” The review should first identify which installment's performance gave rise to the dispute. For performance disputes spanning the transition, additionally check Article 20 of the temporal application provisions, then assess the rules governing formation and performance separately. [Temporal application provisions, Article 20](https://www.court.gov.cn/zixun/xiangqing/282051.html)

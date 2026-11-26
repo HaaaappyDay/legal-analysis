@@ -1,12 +1,12 @@
-# 第四编　人格权（第989—1039条）
+# Book Four: Personality Rights (Articles 989–1039)
 
-先定位受保护的具体利益及所求救济。涵盖生命、身体、健康，姓名与名称，肖像，名誉与荣誉，隐私和个人信息。判断公开、采集、加工、再利用等不同行为时分别核查授权和法定事由。[民法典第四编](https://www.court.gov.cn/zixun/xiangqing/233181.html)
+First identify the specific protected interest and relief sought. This Book covers life, bodily integrity, health, personal and organizational names, likeness, reputation and honor, privacy, and personal information. Check authorization and statutory grounds separately for disclosure, collection, processing, reuse, and other acts. [Civil Code, Book Four](https://www.court.gov.cn/zixun/xiangqing/233181.html)
 
-| 争点 | 关键核验 |
+| Issue | Key checks |
 |---|---|
-| 肖像、声音、姓名被使用 | 查能否识别特定主体，谁制作、使用或公开，授权对象、期限、媒介和用途，是否属于合理使用。声音保护参见第1023条第二款；录音制品权属、授权范围需另查。 |
-| 名誉、荣誉及公共利益报道 | 定位具体表达、传播对象、事实依据、是否履行合理核实义务以及贬损影响，核对第1024—1026条。评价、事实陈述、捏造事实需要分别处理。 |
-| 隐私与个人信息 | 查私密性、可识别性、处理目的和处理根据。涉及平台、敏感信息、删除请求时并读[个人信息与数据](../markets.md)。 |
-| 停止侵害、禁令或赔偿 | 依请求核对相应条件；第997条人格权保护措施、第995条人格权请求、第1183条精神损害赔偿处理不同后果。损害赔偿并读[侵权责任](torts.md)。 |
+| Use of likeness, voice, or name | Check whether a specific person can be identified, who created, used, or disclosed the material, the authorized parties, duration, medium, and purpose, and whether a permitted reasonable use applies. For voice protection, see Article 1023, paragraph 2; ownership of rights in sound recordings and the scope of authorization require separate checks. |
+| Reputation, honor, and reporting in the public interest | Identify the specific expression, audience, factual basis, compliance with the duty of reasonable verification, and reputational harm; check Articles 1024–1026. Assess opinions, factual statements, and fabricated facts separately. |
+| Privacy and personal information | Check the private nature of the matter, identifiability, processing purpose, and legal basis for processing. For platforms, sensitive information, or erasure requests, also read [Personal information and data](../markets.md). |
+| Cessation of infringement, injunctions, or damages | Check the conditions corresponding to the relief sought. Personality-right protection measures under Article 997, personality-right claims under Article 995, and compensation for emotional distress under Article 1183 address different consequences. For damages, also read [Tort liability](torts.md). |
 
-**司法实践**　殷某某诉甲公司、乙公司等人格权纠纷案涉及录音素材经处理后生成可识别声音及相应授权范围。若原回答写“有录音授权便可合成配音”，应逐一核对录音制品授权与自然人声音的使用范围、可识别性和各参与方行为。本案在最高法典型案例中的发布摘要可供类比；查到原案裁判文书时可进一步核对其具体说理。[最高法网络、信息技术侵害人格权典型案例，案例2](https://www.court.gov.cn/zixun/xiangqing/467631.html)
+**Judicial practice** The personality-right dispute in *Yin v. Company A, Company B, and Others* concerns the generation of an identifiable voice by processing recorded material and the corresponding scope of authorization. If an answer states that “authorization to use a recording permits synthesized voiceovers,” separately check authorization for the sound recording, the scope of permitted use of the natural person's voice, identifiability, and each participant's conduct. The published summary in the SPC's typical cases can support comparison; if the original decision is found, its specific reasoning can be checked further. [SPC typical cases involving infringement of personality rights through networks and information technology, Case 2](https://www.court.gov.cn/zixun/xiangqing/467631.html)

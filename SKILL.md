@@ -1,93 +1,93 @@
 ---
 name: legal-analysis
-description: Use when reviewing legal questions, answers and citations, or answering legal questions directly, especially for mainland China and Australia. 适用于法律问答检查、引用核验，以及未提供原回答的法律问题。
+description: Use when reviewing legal questions, answers and citations, verifying legal authorities, or answering legal questions without an existing answer to review, especially for mainland China and Australia.
 ---
 
-# 法律问答与引用评审
+# Legal Q&A and Citation Review
 
-以检查 question、answer 和 citation 为主要用途，也处理只有 question 的直接回答任务。读完问题后，先确定用户需要决定什么，再逐项研究或检查。两种模式共用法域选择、检索、规则适用及来源核验要求。
+Primarily use this skill to review a question, answer and citations; it also handles direct answers when only a question is supplied. After reading the question, first identify what the user needs to decide, then research or review each issue. Both modes share the requirements for selecting the jurisdiction, conducting research, applying legal rules and verifying sources.
 
-## 按输入选择模式
+## Select the mode for each input
 
-| 每题的输入 | 模式与处理 |
+| Input for each question | Mode and approach |
 |---|---|
-| question，没有待审 answer | 直接回答；附有参考资料或 citation 时，将其作为待核实的研究材料。 |
-| question + answer，citation 可选 | 检查；逐题保留原问题、原回答、原引用的对应关系，拆分原回答的主张，显式指出已答和漏答的子问。没有 citation 时记“未提供”，主动查找依据。 |
-| 多题且输入不同 | 逐题选择模式，按原题号交付；已有 answer 的题检查，其余题直接回答。 |
+| A question, with no answer to review | Answer directly; treat any accompanying reference materials or citations as research material to be verified. |
+| A question and answer, with optional citations | Review; preserve the correspondence between each original question, answer and citation, break down the answer's claims, and explicitly identify which subquestions it addresses or omits. If no citations are supplied, record "not provided" and actively look for supporting authorities. |
+| Multiple questions with different inputs | Select the mode for each question and retain the original numbering; review questions with existing answers and answer the others directly. |
 
-用户明确的特殊要求优先。例如明确只查引用却没有提供引用时，请求补充。问题和待审回答可来自此前对话；按用户指定的版本保留原始输入，新生成的草稿不算用户原回答。
+The user's explicit special requirements take precedence. For example, if the user expressly requests citation checking only but supplies no citations, ask for them. The question and answer to be reviewed may come from earlier conversation; preserve the original input version specified by the user. A newly generated draft is not the user's original answer.
 
-开始研究或检查前，按下文“选择复核方法”确定是否需要先独立研究再对照回答；需要独立上下文或文件交接时，先读[复核与文件交接指南](references/review-workflow.md)。
+Before researching or reviewing, use "Select the further review method" below to decide whether independent research must precede comparison with the answer. When a separate context or file handoff is needed, first read the [review and file handoff guide](references/review-workflow.md).
 
-## 完全无法联网时先确认
+## Obtain confirmation if the task has no internet access
 
-以整个任务可用的工具和协作能力判断是否完全无法联网；单个链接打不开、某个来源无法核验或某个子代理没有网络，不等于整个任务无法联网。确认完全无法联网时，由协调者主动告知用户并询问是否仍要继续。在用户明确同意前，暂停实质分析、回答生成及评审；没有回复不视为同意。
+Assess whether the task is entirely offline using all tools and collaboration capabilities available to the task. An inaccessible link, an unverifiable source or a single subagent without network access does not mean the entire task is offline. Once a complete lack of internet access is confirmed, the coordinator must proactively inform the user and ask whether to continue. Suspend substantive analysis, answer generation and review until the user explicitly agrees; silence is not consent.
 
-询问应明确说明：“当前完全无法联网，无法获取或核验外部知识。继续任务只能基于你提供的材料和本地已有材料，结果可能存在较大错误或遗漏。你是否仍希望继续？”用户已在知晓这一限制及风险后明确要求继续时，沿用该确认，无需重复询问；普通的任务请求或催促不等于知情同意。用户拒绝时停止，等待恢复联网能力或新的明确指示。
+The request must clearly state: "There is currently no internet access, so I cannot obtain or verify external information. If we continue, the task can rely only on the materials you provide and those already available locally, and the result may contain significant errors or omissions. Would you still like me to proceed?" If the user has already explicitly instructed the agent to continue with knowledge of this limitation and risk, rely on that confirmation without asking again. An ordinary task request or request to hurry is not informed consent. If the user declines, stop and wait for restored internet access or new explicit instructions.
 
-获准后再继续材料范围内的分析，并在交接任务中记录用户确认及材料边界。最终回答或报告开头及交付回复中再次显著说明完全无法联网、无法获取或核验外部知识，以及可能存在较大错误或遗漏。模型既有知识不能视为已核验的外部依据；对已有材料仍分别标记实际核到的内容与未核范围。
+Continue the analysis within the available materials only after consent, and record that consent and the material limits in any handoff. Prominently restate the complete lack of internet access, the inability to obtain or verify external information, and the risk of significant errors or omissions both at the start of the final answer or report and in the delivery message. Do not treat the model's pre-existing knowledge as verified external authority. For available materials, separately identify what was actually checked and what remains unverified.
 
-## 选择适用背景
+## Establish the applicable context
 
-按争点确定可能适用的法域、事实发生时间及相关主体。办理手续、交易、监管、争议解决或执行等情境只有在影响结论时才需展开。根据问题事实和法律关系选法域；回答采用的语言、援引的法条或当事人所在地只是线索。比较法问题分别评价两地命题；跨境事件则分别判断管辖、准据法及承认执行等实际争点。
+Identify potentially applicable jurisdictions, the dates of the relevant events and the parties or entities involved by reference to the issues. Elaborate on administrative processes, transactions, regulation, dispute resolution or enforcement only where they affect the conclusion. Select the jurisdiction from the facts and legal relationships; the answer's language, cited provisions and the parties' locations are only clues. For comparative-law questions, assess the propositions in each jurisdiction separately. For cross-border events, separately address the actual issues of jurisdiction, governing law, recognition and enforcement.
 
-- 涉及中国大陆，读取[中国大陆指南](references/mainland-china/index.md)及相关领域页。
-- 涉及澳大利亚，读取[澳大利亚指南](references/australia/index.md)，确定是否还需选定州或领地，再读相应领域页。
+- For mainland China, read the [mainland China guide](references/mainland-china/index.md) and the relevant subject pages.
+- For Australia, read the [Australia guide](references/australia/index.md), determine whether a state or territory must also be identified, then read the relevant subject pages.
 
-事实或地区不明时，先完成能够确定的部分。若不同假设会改变结果，列出分支及缺少的事实；涉及其他地区时，说明本地资料覆盖范围，并就适用法域查证原始依据。
+Where facts or location are unclear, complete the parts that can be determined first. If different assumptions would change the outcome, set out the alternative analyses and missing facts. For other jurisdictions, explain the coverage of the local reference materials and verify primary authorities for the applicable jurisdiction.
 
-## 到哪里查，何时用案例
+## Where to research and when to use cases
 
-有原引用时先按标识找原件；只有问题或原引覆盖不足时，把缺失的法律命题、决定性事实和法域组成检索词。按[中国大陆法条与案例检索](references/mainland-china/search.md)或[澳大利亚立法与判决检索](references/australia/search.md)核对时点、效力和后续发展。给用户链接到实际核验的正文及条款或裁判理由。
+Where original citations are supplied, first use their identifiers to locate the original sources. When only a question is supplied or the original citations provide insufficient coverage, build searches from the missing legal propositions, decisive facts and jurisdiction. Follow the [mainland China legislation and case research guide](references/mainland-china/search.md) or the [Australian legislation and judgment research guide](references/australia/search.md) to check the relevant date, legal status and subsequent developments. Link the user to the text actually verified and the relevant provisions or reasons for judgment.
 
-按工具实际能力取证。有正文 URL 时先用网页读取（fetch）打开；需要发现原件、历史版本或后案时，用网页搜索（search）按法名、案号或中立引注找候选，再打开官方 HTML 或 PDF 定位正文。只有 fetch 时从用户链接或指南中的入口循公开链接查找；只有 search 时，如仅返回摘要，标为“只见检索摘要，原文未核”。网页上出现搜索框、登录提示或版本选择器，不代表工具已提交查询或选定版本。直接读取返回 403，即记录该 URL 的直读失败。有搜索工具时，可从结果打开同一官方文书的索引副本，或另找官方发布文本。实际读到材料身份、适用日期及目标条款或裁判段落后，才标记相应范围已核；只有摘要、空壳页或错误页时标为“原文未核”。日期版不能充作现行版。
+Obtain evidence according to the tools' actual capabilities. If a full-text URL is available, first open it with a webpage-reading tool (fetch). To discover original texts, historical versions or subsequent cases, use web search (search) with the legislation title, case number or neutral citation to find candidates, then open the official HTML or PDF and locate the relevant text. With fetch alone, follow public links from the user's URLs or the entry points in the guides. With search alone, if only snippets are returned, mark the source "search snippet only; original text not verified". A search box, login prompt or version selector on a webpage does not mean the tool has submitted a query or selected a version. If direct access returns 403, record that direct access to that URL failed. If search is available, open an indexed copy of the same official document from the results or find another officially published text. Mark a scope as verified only after actually reading the material's identifying details, applicable date and relevant provisions or judgment paragraphs. Mark snippets, shell pages and error pages "original text not verified". A dated version must not be presented as the current version.
 
-领域指南可收录能解释规则、划清事实边界或揭示实践分歧的代表案例。条文已足以解决的事项可直接引用条文；普通法规则依赖判决、条文解释有争议或回答声称存在某种裁判惯例时，应检索相关裁判。以争点决定选哪一案及需要几案。每则案例注明身份与原文位置、关键事实、支持的命题和类比边界；使用前复核其后续状态。
+Subject guides may include representative cases that explain rules, delineate factual boundaries or reveal differences in practice. Cite legislation directly where it resolves the issue. Research relevant decisions where a common-law rule depends on case law, statutory interpretation is disputed, or an answer claims a particular pattern of judicial practice. Let the issue determine which cases and how many are needed. For each case, identify the decision and pinpoint reference, material facts, proposition supported and limits of the analogy; check its subsequent treatment before use.
 
-## 检索何时结束
+## When to conclude research
 
-直接回答、检查及补充研究均按每题的争点覆盖情况决定何时收束，不以搜索次数或收集的案例数量作为完成标准。结束前逐项确认：
+For direct answers, reviews and supplementary research, decide when to stop by assessing issue coverage for each question, not by counting searches or collected cases. Before concluding, confirm each of the following:
 
-1. 每个关键子问和决定性主张已有依据支持的判断或条件分支；暂不能判断的，说明缺少什么及原因。
-2. 已针对可能改变结果的例外、相反依据、适用版本和必要的判例后续发展进行检查，说明它们如何影响结论；未解决的冲突明确保留，不默认为不存在。
-3. 每项原引用均已评价支持关系并记录核验状态；无法取得足够内容的引用也已交代。直接回答没有原引用时，不为此虚构评分对象。
-4. 剩余事实或证据缺口、已尝试的相关查找途径及缺口对结论的影响，已写入“评审与核验记录”或对应的待确认事项。
-5. 没有尚待查证、可能实质改变结论的新线索；继续补充主要只会重复已有依据，或无法指出它将解决哪个具体未决问题时，停止扩展检索并进入交付及必要复核。
+1. Every key subquestion and decisive claim has an authority-supported assessment or conditional analysis. Where assessment is not yet possible, explain what is missing and why.
+2. Exceptions, contrary authorities, applicable versions and necessary subsequent case treatment that could change the outcome have been checked, and their effect on the conclusion explained. Explicitly retain unresolved conflicts rather than assuming none exist.
+3. Each original citation has an assessment of what it supports and a recorded verification status, including citations for which sufficient content could not be obtained. Do not invent citations to evaluate when a direct-answer task has none.
+4. Remaining factual or evidential gaps, relevant research avenues already attempted and the effect of those gaps on the conclusion are recorded in the "Review and verification record" or the corresponding matters requiring confirmation.
+5. No new lead remains to be checked that could materially change the conclusion. If further research would mainly duplicate existing authorities, or no specific unresolved issue can be identified that it would address, stop expanding the search and proceed to delivery and any necessary further review.
 
-尚缺决定性依据且仍有可行检索路径时，继续针对缺口查证，不能仅因当前结论看似合理就结束。确实无法取得必要材料或决定性事实时，可交付“阶段性分析”，列出待补材料、无法确定的结论及下一步；停止检索不等于已充分核验。完全无法联网仍须先取得用户的继续确认。多题逐题收束，对已覆盖的题目停止重复补充，将研究集中到未决事项。出现新的决定性事实、相反依据、版本变化或审查发现时，只重新打开受影响的争点。
+If decisive authority is still missing and a viable research avenue remains, continue researching that gap; do not stop merely because the current conclusion appears plausible. If necessary materials or decisive facts genuinely cannot be obtained, deliver an "interim analysis" identifying the materials needed, conclusions that cannot be reached and next steps. Ending research does not mean verification is sufficient. A complete lack of internet access still requires the user's confirmation before proceeding. Conclude each question separately in multi-question tasks: stop repeatedly supplementing covered questions and concentrate research on unresolved matters. Reopen only the affected issues when new decisive facts, contrary authorities, version changes or review findings arise.
 
-## 检查模式：分别判断回答和引用
+## Review mode: assess the answer and citations separately
 
-1. **回答是否合理。** 逐项核对是否回应用户所问、采用相关时点的适用规则、把规则的条件与题中事实对应起来，并处理足以改变结果的例外或相反依据。检查是否把“可能”“可申请”“通常”说成“必然”“可获准”。证据或事实不足时，分开说明法律条件和事实缺口。
-2. **每项原引用支持什么。** 保留用户的编号、名称或链接。找到实际文本，核实文件类型、法域、版本、条款或裁判段落、上下文及其在当地的作用。对每项主张分别说明原引充分支持、部分支持、不支持或与主张矛盾，并说明理由；与各项主张均无关的引文也要交代。一项主张可以由多份依据共同支持。支持关系与来源核验状态分别记录；没有取得足以判断的内容时，支持关系写“暂无法判断”。格式有误但能唯一定位时，修正定位并分别评价内容。
-3. **案例和实践主张。** 比较争点、决定性事实、裁判理由及其在本题的效力。区分法院认定、当事人意见、发布摘要。主张“实践中通常如此”还需核查材料覆盖的法院、时期和相反处理。只有一个可比案例时，据实说明它能证明的个案处理。
-4. **查找并列出补充依据。** 围绕决定性缺口、例外、冲突和更直接的依据主动查证。发现有帮助的新条款、判决或实践材料，即标为“评审补充”，给出可定位来源和它对结论的具体影响。即使原回答成立，能解释边界的新依据也应指出。另查到的依据不计入原引的支持程度。
-5. **如实记录核验状态。** 优先使用适用时点的官方原文或法院判决。链接失效时按标题、编号、条款另找可复核文本。核验状态说明实际取得的材料、已核内容和未核范围；只有摘要、二手材料或用户提供的文本时，区分对所见内容的核对与对原始来源、版本及完整性的独立核验。未能核验的具体事项应明确列出；支持关系仅就实际读到的内容作出，并标明这一范围。“未能核验”不等于“不支持”，也不据此判定主张错误。主张是否成立仍结合事实和其他已核实的依据单独判断，补充依据不计入原引的支持程度。
+1. **Is the answer sound?** Check whether it addresses what the user asked, applies the rules in force at the relevant time, maps the legal conditions to the facts, and handles exceptions or contrary authorities that could change the outcome. Check whether "may", "may apply" or "usually" has been overstated as "inevitably" or "will be granted". Where evidence or facts are insufficient, distinguish the legal requirements from the factual gaps.
+2. **What does each original citation support?** Preserve the user's numbering, titles or links. Find the actual text and verify the document type, jurisdiction, version, provision or judgment paragraph, context and its role in the local legal system. For each claim, explain whether the original citation fully supports, partially supports, does not support or contradicts it, and why. Also account for citations unrelated to any claim. Several authorities may jointly support a claim. Record the support assessment separately from source verification status; if insufficient content has been obtained to assess support, write "cannot yet assess". If a citation is misformatted but uniquely identifiable, correct the reference and assess the content separately.
+3. **Cases and claims about practice.** Compare the issues, material facts, reasons for judgment and the decision's authority in the present matter. Distinguish judicial findings, parties' submissions and published summaries. A claim that "this is the usual practice" also requires checking the courts and periods covered by the materials and any contrary approaches. Where there is only one comparable case, accurately state the treatment it demonstrates in that individual case.
+4. **Find and list supplementary authorities.** Actively investigate decisive gaps, exceptions, conflicts and more directly relevant authorities. Label helpful new provisions, judgments or practice materials as "Supplementary authorities" and provide a locatable source and their specific effect on the conclusion. Identify new authorities that explain the limits of an answer even if the original answer is sound. Independently found authorities do not count towards the support provided by the original citations.
+5. **Record verification status accurately.** Prefer official primary texts or court judgments applicable at the relevant time. If a link is broken, use the title, identifier or provision to find another text that can be checked. State what materials were actually obtained, what was verified and what remains unverified. Where only summaries, secondary materials or user-supplied text are available, distinguish checking the content seen from independently verifying the original source, version and completeness. Explicitly list the specific matters that could not be verified. Assess support only from content actually read and state that scope. "Unable to verify" does not mean "does not support" and does not by itself make a claim wrong. Assess whether the claim is sound separately, using the facts and other verified authorities; supplementary authorities do not count towards the support provided by the original citations.
 
-## 形成完整回答或修正
+## Produce a complete answer or correction
 
-- **直接回答。** 从 question 拆出需要解决的事项，核查每项结论的适用规则、事实条件、例外及相反依据，按[直接回答模板](references/answer-template.md)形成完整 answer 和可定位的 citation。沿用上文的来源核验要求，分别说明来源核到什么、所见内容支持什么。用户提供的参考材料不是对其“原回答”的引用评分对象。
-- **检查后修正。** 原回答成立但引用不足时，补充或替换依据并保留原引评价；局部错误则定向修正。核心结论错误、关键子问大量漏答、主要分析建立在错误法域或版本上时，在评审后提供完整重写的 answer，覆盖全部关键子问，不只列修改意见。原回答与原引的评价、新回答与新依据的对应关系分别保留。
-- **事实或材料不足。** 先完成能确定的部分，列出影响结论的条件分支及需要补充的事实；无法形成有依据的分支时，提出具体问题并保留待判断事项。完全无法联网时，先按上文取得用户的继续确认，获准后仅就用户材料或本地材料分析，明确未完成的外部核验。完整回答可以是条件化回答，不补造事实或确定结论。
+- **Direct answer.** Break the question into the matters that need resolution. Verify the applicable rules, factual conditions, exceptions and contrary authorities for each conclusion, and use the [direct-answer template](references/answer-template.md) to produce a complete answer with pinpoint citations. Apply the source verification requirements above, distinguishing what has been verified about the source from what the content seen supports. Reference materials supplied by the user are not citations to an "original answer" to be scored.
+- **Corrections after review.** If the original answer is sound but its citations are inadequate, supplement or replace the authorities while retaining the original citation assessments. Make targeted corrections for localised errors. If the central conclusion is wrong, many key subquestions are unanswered, or the main analysis relies on the wrong jurisdiction or version, provide a fully rewritten answer after the review, covering all key subquestions rather than merely listing suggested edits. Preserve separately the assessments of the original answer and citations and the mapping between the new answer and its authorities.
+- **Insufficient facts or materials.** Complete what can be determined first, and identify the conditional analyses and additional facts that affect the conclusion. If no supported conditional analysis can be formed, ask specific questions and identify the matters awaiting assessment. When entirely offline, first obtain the user's confirmation as above; once authorised, analyse only user-supplied or local materials and explicitly identify the external verification not completed. A complete answer may be conditional; do not invent facts or certainty.
 
-## 选择复核方法
+## Select the further review method
 
-| 情形 | 方法 |
+| Situation | Method |
 |---|---|
-| 用户提供的 answer，无复杂争点，当前 agent 未参与生成 | 当前 agent 直接检查，无需额外套一层审查者。 |
-| 当前 agent 新生成或完整重写的 answer | 使用不继承生成会话历史的独立上下文，审查 question、用户事实、answer 和 citation。 |
-| 涉及多法域、历史版本衔接、权威依据冲突、重大遗漏可能改变整体分析，或关键结论存在实质分歧 | 优先采用两阶段独立审查：先只研究问题，再读取待审回答及其引用对照；此行优先于上面的普通流程。已看过 answer 的 agent 不能充当第一阶段的独立研究者。 |
-| 局部修正、引用格式或笔误调整 | 当前上下文定向核对改动；实质分歧按上一行处理。 |
-| 环境无法创建独立上下文 | 做同上下文复核，注明未完成独立审查；继续交付能完成的部分。 |
+| The user supplied the answer, the issues are uncomplicated, and the current agent did not help generate it | The current agent reviews it directly; no additional reviewer is needed. |
+| The current agent generated or fully rewrote the answer | Use a separate context that does not inherit the generation conversation history to review the question, user-provided facts, answer and citations. |
+| Multiple jurisdictions, transitions between historical versions, conflicting authoritative sources, potentially major omissions affecting the overall analysis, or substantive disagreement over a key conclusion | Prefer two-stage independent review: first research the question alone, then read the answer and citations for comparison. This row takes precedence over the ordinary procedures above. An agent that has already seen the answer cannot act as the first-stage independent researcher. |
+| Targeted corrections, citation-format changes or typographical fixes | Check the changes within the current context; handle substantive disagreements under the preceding row. |
+| The environment cannot create a separate context | Review within the same context, state that independent review was not completed, and deliver the parts that can be completed. |
 
-独立审查按[文件交接指南](references/review-workflow.md)传递正文和结果。审查者自行核对关键依据，给出具体主张、依据位置、问题及影响；协调者根据证据修正，再定向复核改动和新增主张。未解决的分歧明确列出，不按代理数量决定结论，也不反复重写以制造确定性。被分派的研究者或审查者只执行指定阶段，不递归创建审查者。
+For independent review, transfer the substantive materials and results using the [file handoff guide](references/review-workflow.md). Reviewers must independently check key authorities and identify the specific claim, authority pinpoint, problem and impact. The coordinator revises on the evidence, then checks changes and new claims. Explicitly record unresolved disagreements; do not decide by counting agents or repeatedly rewrite to manufacture certainty. Assigned researchers and reviewers perform only their designated stage and must not recursively create reviewers.
 
-## 交付
+## Delivery
 
-检查题使用[评审报告模板](references/report-template.md)，直接回答题使用[直接回答模板](references/answer-template.md)；混合任务按题号合并为一份文件，各题采用对应结构。说明实际复核方式、覆盖范围及未解决事项，复核状态与来源核验状态分别记录。
+Use the [review report template](references/report-template.md) for questions with answers to review and the [direct-answer template](references/answer-template.md) for direct-answer questions. Combine mixed tasks into one file in question-number order, using the appropriate structure for each. Explain the actual further review method, coverage and unresolved matters, and record review status separately from source verification status.
 
-在整份交付正文末尾增加可见的小章节“评审与核验记录”，记录分析或评审完成日期，以及每项实际使用来源的版本与定位、核验日期及范围、后续发展检索记录、重要未完成事项及其对结论的影响。事实发生日期用于选法，完成日期与来源核验日期用于说明信息边界，三者分别记录，不相互替代。日期按实际执行记录填写；沿用旧材料且未重新核验时保留原核验日期，日期未知则明确写“未知”，不能用本次完成日期补齐。
+At the end of the complete deliverable, add a visible short section titled "Review and verification record". Record the analysis or review completion date and, for every source actually used, its version and pinpoint reference, verification date and scope, subsequent-development searches, and significant outstanding matters and their effect on the conclusion. The event date selects the applicable law; the completion date and source verification dates describe the information limits. Record all three separately; none substitutes for another. Use dates from actual execution records. When reusing material without reverifying it, retain the original verification date; if unknown, explicitly write "unknown" rather than inserting the current completion date.
 
-后续发展检索记录写明实际检索日期、所查来源、命题及覆盖期间；未检索写“未检索”，来源无法确定覆盖期间时注明无法确认，不把检索执行日当成全面覆盖至该日的保证。未发现修法、推翻或限缩判例等变化时，仅表述为在所列检索范围内未发现。离线或只读用户材料时注明文本核对日期及“外部未核”，不填成外部核验完成。多题共用来源可合并一行并列出关联题号和主张；保留原引与补充依据的身份，正文不必展示完整搜索日志。用户指定 metadata 格式时可另行适配，默认保留这个可见章节。
+For subsequent-development searches, record the actual search date, sources searched, proposition and period covered. Write "not searched" if no search was conducted; if the source does not establish the period covered, state that it cannot be confirmed. Do not treat the search date as a guarantee of comprehensive coverage through that date. Where no amendment, overruling or limitation of case law is found, state only that none was found within the specified search scope. For offline work or review limited to user-supplied materials, record the date the text was checked and "not externally verified"; do not record external verification as complete. Sources shared across questions may be combined in one row listing the related question numbers and claims. Preserve the distinction between original citations and supplementary authorities. The body need not include a complete search log. Adapt to a user-specified metadata format if needed, but retain this visible section by default.
 
-默认生成实际的 UTF-8 Markdown 文件。优先采用用户指定的名称和位置；未指定时，全部为直接回答的任务保存为工作目录下的 `legal-answer.md`，含检查题的任务保存为 `legal-qa-review.md`。同名文件已存在且用户未要求更新时使用递增后缀。在回复中给出文件链接和最影响用户判断的发现。用户明确只要正文、讨论设计或提供空模板时按其要求交付；无法写文件时返回正文并说明。过程文件不代替最终回答或报告。
+By default, create an actual UTF-8 Markdown file. Prefer the user's specified filename and location. Otherwise, save tasks consisting entirely of direct answers as `legal-answer.md` in the working directory, and tasks containing review questions as `legal-qa-review.md`. If the filename already exists and the user has not requested an update, add an incrementing suffix. Provide a file link and the findings that most affect the user's decision in the reply. Follow the user's instructions when they expressly request inline text only, a design discussion or an empty template. If files cannot be written, return the text and explain the limitation. Working files do not replace the final answer or report.

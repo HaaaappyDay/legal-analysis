@@ -1,12 +1,12 @@
-# 第五编　婚姻家庭（第1040—1118条）
+# Book Five: Marriage and Family (Articles 1040–1118)
 
-覆盖一般规定、结婚、家庭关系、离婚和收养。先识别身份关系及请求内容，同一争议中的财产归属、对外债务、对子女的义务要分别评价。[民法典第五编](https://www.court.gov.cn/zixun/xiangqing/233181.html) · [婚姻家庭编解释（一）](https://www.court.gov.cn/zixun/xiangqing/282071.html) · [婚姻家庭编解释（二）](https://www.court.gov.cn/zixun/xiangqing/452771.html)
+This Book covers general provisions, marriage, family relations, divorce, and adoption. First identify the status relationship and relief sought; assess property ownership, debts owed to third parties, and obligations toward children separately within the same dispute. [Civil Code, Book Five](https://www.court.gov.cn/zixun/xiangqing/233181.html) · [Interpretation of the Book on Marriage and Family (I)](https://www.court.gov.cn/zixun/xiangqing/282071.html) · [Interpretation of the Book on Marriage and Family (II)](https://www.court.gov.cn/zixun/xiangqing/452771.html)
 
-| 争点 | 核对事实和依据 |
+| Issue | Facts and authorities to check |
 |---|---|
-| 婚姻成立、无效或可撤销 | 查登记、年龄、亲属关系、婚姻状态；胁迫或婚前重大疾病情形分别核实撤销条件和期间。婚姻身份与同居期间的出资返还分开评价。 |
-| 夫妻财产、个人财产、夫妻债务 | 查财产来源、取得时间、赠与对象、财产约定；对外债务另查共同签字、追认、家庭日常生活需要、共同生产经营等事实与举证。参见第1062—1065条。涉及房产时并查[物权](property.md)。 |
-| 离婚与财产后果 | 区分协议登记与诉讼，对应第1076—1079条。核查共同财产分割、家务劳动补偿、经济帮助、损害赔偿各自条件；问题涉及家暴时并核对反家庭暴力法及人身安全保护令程序。 |
-| 抚养、探望、赡养与收养 | 区分直接抚养安排、抚养费和探望；核对年龄、真实意愿及最有利于未成年子女的事实。收养另核对资格、真实同意、登记、解除与形成时间，历史关系读[时间效力](temporal.md)。 |
+| Formation, invalidity, or annulment of marriage | Check registration, age, kinship, and marital status; separately verify the conditions and periods for annulment in cases of coercion or serious premarital illness. Assess marital status separately from repayment of contributions made during cohabitation. |
+| Matrimonial property, separate property, and matrimonial debts | Check the source and date of acquisition of property, the intended recipient of gifts, and property agreements; for debts owed to third parties, separately check joint signatures, ratification, ordinary household needs, joint production or business operations, and the evidence. See Articles 1062–1065. For real estate, also check [Rights in rem](property.md). |
+| Divorce and financial consequences | Distinguish divorce by agreement and registration from divorce proceedings, corresponding to Articles 1076–1079. Check the separate conditions for division of common property, compensation for domestic work, financial assistance, and damages; for domestic violence, also check the Anti-Domestic Violence Law and personal safety protection order procedures. |
+| Child support and care, visitation, support of elderly parents, and adoption | Distinguish arrangements for direct care, child support payments, and visitation; check age, actual wishes, and facts relevant to the best interests of minor children. For adoption, separately check eligibility, genuine consent, registration, dissolution, and when the relationship was established; for historical relationships, read [Temporal application](temporal.md). |
 
-**评审示例**　“只要是婚内借款，另一方必须还”缺少第1064条所要求的事实。评审应交代借款人、金额、用途、签名或追认及已有证据；若用途超出家庭日常生活需要，还要说明债权人需要证明的事项，再判断原回答是否过度确定。[民法典第1064条](https://www.court.gov.cn/zixun/xiangqing/233181.html)
+**Review example** “Any loan taken out during marriage must also be repaid by the other spouse” lacks the facts required by Article 1064. The review should identify the borrower, amount, purpose, signature or ratification, and available evidence. If the purpose exceeds ordinary household needs, explain what the creditor must prove, then assess whether the original answer is overly categorical. [Civil Code, Article 1064](https://www.court.gov.cn/zixun/xiangqing/233181.html)

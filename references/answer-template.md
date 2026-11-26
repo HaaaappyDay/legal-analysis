@@ -1,43 +1,43 @@
-# 法律问题直接回答模板
+# Direct Answer Template for Legal Questions
 
-用于没有待审 answer 的问题，也用于评审后的完整重写。按问题的子问组织内容，采用用户要求的语言；短题可合并为段落，只保留有内容的部分。完整重写嵌入评审报告时使用“完整重写回答”标题，不重复整份报告标题。
+Use this for questions without an answer to review, and for a full rewrite after review. Organize the content by the question's subquestions and use the language requested by the user; for short questions, sections may be combined into paragraphs, retaining only those with content. When a full rewrite is embedded in a review report, use the heading “Fully rewritten answer” without repeating the title of the entire report.
 
-完全无法联网时，先取得用户知情后继续的明确确认。获准后在回答正文开头加入以下提示，并在交付回复中重申；嵌入评审报告时可沿用报告开头的同一提示，普通联网任务不添加：
+When internet access is completely unavailable, first obtain the user's explicit, informed confirmation to continue. Once authorized, add the following notice at the beginning of the answer and reiterate it in the delivery message; when embedded in a review report, the same notice at the beginning of the report may serve this purpose. Do not add it to ordinary tasks with internet access:
 
-> **离线分析限制：** 本次完全无法联网，无法获取或核验外部知识。经你确认继续，以下分析仅基于你提供的材料和本地已有材料，可能存在较大错误或遗漏。
+> **Offline analysis limitations:** Internet access is completely unavailable for this task, so external knowledge cannot be obtained or verified. With your confirmation to continue, the following analysis is based solely on materials you supplied and materials already available locally, and may contain significant errors or omissions.
 
 ```markdown
-# 法律问题回答
+# Answer to Legal Questions
 
-## 问题 1｜[题目]
+## Question 1 — [Title]
 
-**问题**　[用户原问题]
+**Question** [The user's original question]
 
-**适用背景**　[法域、相关时点、用户明确提供的决定性事实；缺失事实与分析假设分别说明]
+**Applicable context** [Jurisdiction, relevant dates, and decisive facts explicitly supplied by the user; distinguish missing facts from assumptions used in the analysis]
 
-### 回答
+### Answer
 
-[先给可支持的结论，逐项回答子问；在具体结论附近给出对应引用。结论依赖缺失事实时写明条件和分支。]
+[Lead with a supportable conclusion and answer each subquestion; place the corresponding citations near each specific conclusion. Where conclusions depend on missing facts, state the conditions and alternative outcomes.]
 
-### 依据与适用
+### Authorities and application
 
-- [依据名称、条款或裁判段落](来源链接) — [适用版本、实际支持的结论、规则条件与题中事实的对应关系，以及影响结果的例外或相反依据]
+- [Authority name, provision, or judgment paragraph](source-link) — [Applicable version, the conclusion actually supported, how the rule's conditions correspond to the facts in the question, and exceptions or contrary authorities that affect the outcome]
 
-### 核验范围与待确认事项
+### Verification scope and matters requiring confirmation
 
-[实际读到的材料与未核范围；会改变结论的缺失事实，以及需要补充的具体信息。]
+[Materials actually read and the scope left unverified; missing facts that would change the conclusion, and the specific additional information needed.]
 
-**复核说明**　[实际采用独立审查或同上下文复核、覆盖范围及尚未解决的问题；无独立审查时如实说明]
+**Further review** [Whether independent review or review within the same context was actually used, its coverage, and unresolved issues; state honestly if no independent review occurred]
 
-## 评审与核验记录
+## Review and verification record
 
-**分析／评审完成日期**　[实际完成日期，YYYY-MM-DD；必要时注明时区]
+**Analysis/review completion date** [Actual completion date, YYYY-MM-DD; specify the time zone where necessary]
 
-| 来源及关联题号／主张 | 版本与定位 | 核验日期及范围 | 后续发展检索记录 | 重要未完成事项及影响 |
+| Source and associated question number/claim | Version and pinpoint reference | Verification date and scope | Subsequent-development search record | Significant outstanding matters and their impact |
 |---|---|---|---|---|
-| [来源编号或名称、链接及对应题号／主张] | [实际使用的版本、条款或裁判段落] | [实际核验日期、取得的材料及已核范围；仅核对用户文本时注明“外部未核”] | [实际检索日期、所查来源、命题、覆盖期间及结果；未查写“未检索”，覆盖期间不明则注明] | [未核事项可能改变哪些结论；没有发现待办事项时限定为本次范围] |
+| [Source identifier or name, link, and corresponding question number/claim] | [Version, provision, or judgment paragraph actually used] | [Actual verification date, materials obtained, and scope verified; mark “not externally verified” when only the user's text was checked] | [Actual search date, sources searched, proposition, period covered, and results; write “not searched” if no search was performed, and note if the period covered is unclear] | [Which conclusions unverified matters could change; if no outstanding matters were identified, qualify this as limited to the present scope] |
 ```
 
-直接回答不填写“原回答”或评价不存在的“原引用”。仅有用户摘录时，可以说明所供内容支持哪些结论，同时保留来源、版本和完整性未独立核验的边界。重写回答中的补充依据不改变评审对原引用的判断。
+For a direct answer, do not fill in an “Original answer” or evaluate nonexistent “original citations.” When only excerpts supplied by the user are available, explain which conclusions the supplied content supports while retaining the qualification that the source, version, and completeness have not been independently verified. Supplementary authorities in a rewritten answer do not change the review's assessment of the original citations.
 
-“评审与核验记录”在整份交付末尾保留一次；多题共用来源合并并列出关联题号，嵌入评审报告的重写回答共享报告记录。完成日期不代替事实发生日期或来源核验日期。旧材料未经重新核验时保留原日期，未知日期明确记“未知”。未发现后续变化仅指所列检索范围，不表示已穷尽后案或修法。正文保留简短记录，不要求粘贴完整搜索日志。
+Include the “Review and verification record” only once, at the end of the entire deliverable; consolidate sources shared by multiple questions and list the associated question numbers. Rewritten answers embedded in a review report share the report's record. The completion date does not replace the date of the facts or the source verification date. Retain the original date for older materials that have not been reverified, and explicitly mark unknown dates as “unknown.” A finding of no subsequent changes applies only to the stated search scope and does not mean that later cases or legislative amendments have been exhaustively checked. Keep a brief record in the main text; pasting a complete search log is not required.

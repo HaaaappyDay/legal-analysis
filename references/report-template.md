@@ -1,61 +1,61 @@
-# 法律问答评审报告模板
+# Legal Q&A Review Report Template
 
-用于有待审 answer 的题目，citation 可选。保留题号、子问和原引用编号。报告使用用户要求的语言。短题可将逐项表改为短段落，多题可在开头加一张总览表。只有 question 的题目采用[直接回答模板](answer-template.md)，混合任务按原题号组合两种结构。只保留有内容的可选段落，交付时移除提示和占位符。
+Use this for questions with an answer to review; citations are optional. Preserve question numbers, subquestions, and original citation numbers. Use the language requested by the user. For short questions, the itemized table may be replaced with short paragraphs; for multiple questions, an overview table may be added at the beginning. For questions containing only a question, use the [direct answer template](answer-template.md); for mixed tasks, combine the two structures under the original question numbers. Retain only optional sections that have content, and remove instructions and placeholders on delivery.
 
-完全无法联网时，先取得用户知情后继续的明确确认。获准后在报告正文开头加入以下提示，并在交付回复中重申；普通联网任务不添加：
+When internet access is completely unavailable, first obtain the user's explicit, informed confirmation to continue. Once authorized, add the following notice at the beginning of the report and reiterate it in the delivery message; do not add it to ordinary tasks with internet access:
 
-> **离线评审限制：** 本次完全无法联网，无法获取或核验外部知识。经你确认继续，以下评审仅基于你提供的材料和本地已有材料，可能存在较大错误或遗漏。
+> **Offline review limitations:** Internet access is completely unavailable for this task, so external knowledge cannot be obtained or verified. With your confirmation to continue, the following review is based solely on materials you supplied and materials already available locally, and may contain significant errors or omissions.
 
 ```markdown
-# 法律问答评审报告
+# Legal Q&A Review Report
 
-## 问题 1｜[题目]
+## Question 1 — [Title]
 
-**原问题**　[原文]
+**Original question** [Original text]
 
-**原回答**　[原文；较长时注明“摘录”，保留影响判断的原话]
+**Original answer** [Original text; label lengthy extracts as “excerpt” and preserve the original wording that affects the assessment]
 
-**适用背景**　[法域和相关时点。地区会改变结论时，写明适用地区及据以判断的事实；信息不足时，指出受影响的子问。]
+**Applicable context** [Jurisdiction and relevant dates. Where the region changes the conclusion, state the applicable region and the facts supporting that determination; where information is insufficient, identify the affected subquestions.]
 
-### 评审结论
+### Review conclusions
 
-**回答**　[哪些结论成立、遗漏或有误，这对用户的决定有何影响]
+**Answer** [Which conclusions are sound, missing, or incorrect, and how this affects the user's decision]
 
-**原引用支持关系**　[对哪些主张充分支持、部分支持、不支持或与之矛盾；没有足以判断的内容时写“暂无法判断”；未提供原引用时注明缺引]
+**Support from original citations** [Which claims are fully supported, partially supported, unsupported, or contradicted; write “cannot yet assess” where the available content is insufficient to judge; note missing citations if no original citations were provided]
 
-**来源核验状态**　[实际取得的材料、已核内容和未能核验的范围；摘要、用户提供文本与独立取得的原文分别说明]
+**Source verification status** [Materials actually obtained, content verified, and the scope that could not be verified; distinguish summaries, user-supplied text, and independently obtained original text]
 
-### 逐项分析
+### Itemized analysis
 
-| 关键主张或漏答的子问 | 原引用及核验状态 | 原引对主张的支持关系 | 对该主张的判断 |
+| Key claim or unanswered subquestion | Original citation and verification status | Original citation's support for the claim | Assessment of the claim |
 |---|---|---|---|
-| [原回答中的具体判断] | [原编号、来源链接、条款或段落，已核内容及未核范围] | [充分支持、部分支持、不支持、与主张矛盾或暂无法判断；说明理由及所依据的内容范围] | [结合事实与适用依据判断主张是否成立，说明条件、例外及事实缺口] |
+| [Specific assertion in the original answer] | [Original number, source link, provision or paragraph, content verified, and scope left unverified] | [Fully supported, partially supported, unsupported, contradicted, or cannot yet assess; explain the reasons and the scope of content relied upon] | [Assess whether the claim holds in light of the facts and applicable authorities, explaining conditions, exceptions, and factual gaps] |
 
-### 评审补充
+### Supplementary authorities
 
-- [材料名称、条款或裁判段落](来源链接) — [对应哪个子问，补充、更正或限定了什么；是否改变结论]
+- [Material name, provision, or judgment paragraph](source-link) — [Which subquestion it addresses, what it supplements, corrects, or qualifies, and whether it changes the conclusion]
 
-### 建议修正
+### Suggested corrections
 
-[局部问题给出针对性修正；原回答严重不足时，将此节改为“完整重写回答”，覆盖全部关键子问并附相应引用，不能只列修改建议。结论依赖缺失事实时明确条件。]
+[Provide targeted corrections for localized problems; if the original answer is seriously deficient, replace this section with “Fully rewritten answer,” covering all key subquestions with corresponding citations rather than merely listing suggested changes. State conditions explicitly where conclusions depend on missing facts.]
 
-**复核说明**　[评审及修正实际采用的复核方式、覆盖范围及未解决事项；完整重写后说明该新回答是否接受独立审查。复核方式与来源是否已核实分别记录。]
+**Further review** [The further-review method actually used for the review and corrections, its coverage, and unresolved matters; after a full rewrite, state whether the new answer received independent review. Record the review method separately from whether sources have been verified.]
 
-## 评审与核验记录
+## Review and verification record
 
-**分析／评审完成日期**　[实际完成日期，YYYY-MM-DD；必要时注明时区]
+**Analysis/review completion date** [Actual completion date, YYYY-MM-DD; specify the time zone where necessary]
 
-| 来源及关联题号／主张 | 版本与定位 | 核验日期及范围 | 后续发展检索记录 | 重要未完成事项及影响 |
+| Source and associated question number/claim | Version and pinpoint reference | Verification date and scope | Subsequent-development search record | Significant outstanding matters and their impact |
 |---|---|---|---|---|
-| [原引编号或补充来源编号、名称、链接及对应题号／主张] | [实际使用的版本、条款或裁判段落] | [实际核验日期、取得的材料及已核范围；仅核对用户文本时注明“外部未核”] | [实际检索日期、所查来源、命题、覆盖期间及结果；未查写“未检索”，覆盖期间不明则注明] | [未核事项可能改变哪些结论；没有发现待办事项时限定为本次范围] |
+| [Original citation number or supplementary source identifier, name, link, and corresponding question number/claim] | [Version, provision, or judgment paragraph actually used] | [Actual verification date, materials obtained, and scope verified; mark “not externally verified” when only the user's text was checked] | [Actual search date, sources searched, proposition, period covered, and results; write “not searched” if no search was performed, and note if the period covered is unclear] | [Which conclusions unverified matters could change; if no outstanding matters were identified, qualify this as limited to the present scope] |
 ```
 
-“评审与核验记录”在整份报告末尾保留一次，完整重写回答共享记录。多题共用来源合并并列出关联题号，保留原引与补充来源的身份。完成日期不代替事实发生日期或来源核验日期。旧材料未经重新核验时保留原日期，未知日期明确记“未知”。未发现后续变化仅指所列检索范围，不表示已穷尽后案或修法。正文保留简短记录，不要求粘贴完整搜索日志。
+Include the “Review and verification record” only once, at the end of the entire report; fully rewritten answers share this record. Consolidate sources shared by multiple questions and list the associated question numbers, retaining their identities as original citations or supplementary sources. The completion date does not replace the date of the facts or the source verification date. Retain the original date for older materials that have not been reverified, and explicitly mark unknown dates as “unknown.” A finding of no subsequent changes applies only to the stated search scope and does not mean that later cases or legislative amendments have been exhaustively checked. Keep a brief record in the main text; pasting a complete search log is not required.
 
-若同一引用支持多项主张，后续行可沿用编号。无原引用时记录“未提供”，支持关系记“不适用（缺引）”；有引文但没有取得足以判断的内容时，核验状态记“未能核验”并说明原因，支持关系记“暂无法判断”。多题共用材料时仍在每题交代它与该题的关系。使用短段落时也分别交代核验状态与支持关系。
+If the same citation supports multiple claims, subsequent rows may reuse its number. Where there are no original citations, record “not provided” and mark the support relationship “not applicable (missing citation)”; where a citation exists but sufficient content to judge it has not been obtained, record the verification status as “unable to verify,” explain why, and mark the support relationship “cannot yet assess.” When material is shared by multiple questions, still explain its relationship to each question. Even when using short paragraphs, address verification status and the support relationship separately.
 
-例如，只读到用户提供的摘录，且摘录仅覆盖主张的一部分时，核验状态可写“已核对用户摘录；来源、版本和完整性未独立核验”，支持关系写“所供摘录部分支持，未覆盖……”。主张本身可由其他已核实的依据判定，但这些补充依据不改变原引的支持关系。
+For example, if only a user-supplied excerpt has been read and it covers only part of a claim, the verification status may read “User-supplied excerpt checked; source, version, and completeness not independently verified,” and the support relationship may read “The supplied excerpt provides partial support; it does not cover …”. The claim itself may be assessed using other verified authorities, but these supplementary authorities do not change the support provided by the original citation.
 
-原引只涵盖某一地区，而回答声称普遍适用时，在“原引用支持关系”写明材料能支持的地域，在“回答”说明扩大范围是否改变用户得到的结论。
+If an original citation covers only one region while the answer claims universal applicability, state the geographic scope the material supports under “Support from original citations,” and explain under “Answer” whether the expanded scope changes the conclusion the user receives.
 
-核心结论错误、关键子问大量漏答或主要分析建立在错误法域、版本上时，按[直接回答模板](answer-template.md)在本报告中给出完整重写回答；原评审保留。新回答用到的依据与原引用分别对应，新增依据不回填原引评分。回答成立而仅引用不足时，列出补充或替代依据即可。
+Where a core conclusion is wrong, many key subquestions are unanswered, or the main analysis rests on the wrong jurisdiction or version, provide a fully rewritten answer within this report using the [direct answer template](answer-template.md); retain the original review. Map the authorities used in the new answer separately from the original citations, and do not retroactively improve the original citations' ratings using new authorities. Where the answer is sound and only its citations are inadequate, simply list supplementary or replacement authorities.

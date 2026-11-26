@@ -1,25 +1,25 @@
-# 公司与商事
+# Company and commercial law
 
-## 公司组织、股东与交易相对人
+## Corporate organization, shareholders, and counterparties
 
-先辨认主体是有限责任公司、股份有限公司、合伙企业、个人独资企业还是分支机构。查交易时登记状态、章程、签约身份、谁承诺了什么。公司、股东、董事和法定代表人可能承担不同责任。[公司法](https://www.samr.gov.cn/xyjgs/flfg/art/2024/art_d4e84936a8a744f8928ac7aec7594345.html)
+First identify whether the entity is a limited liability company, company limited by shares, partnership, sole proprietorship, or branch. Check its registration status at the time of the transaction, articles of association, the signatory's capacity, and who undertook what obligation. The company, shareholders, directors, and legal representative may incur different liabilities. [Company Law](https://www.samr.gov.cn/xyjgs/flfg/art/2024/art_d4e84936a8a744f8928ac7aec7594345.html)
 
-| 争点 | 核验方法 |
+| Issue | Verification method |
 |---|---|
-| 出资、股权转让与股东责任 | 查设立和转让日期、认缴期限、出资方式、实缴情况、有无催缴或加速到期条件。区分股东向公司出资、转让双方之间的责任和债权人的请求。涉及存量公司另查注册资本登记管理的过渡规定。 |
-| 决议、股东权利和管理人员义务 | 分别核对决议作出主体、召集、表决、内容瑕疵和救济期限；股东知情权、分红、代表诉讼和个人损害赔偿的请求主体不同。董事、监事及高级管理人员责任需对应具体义务、损害与因果。 |
-| 对外担保、越权代表 | 用户引公司法第15条主张“未作决议，债权人一定不能向公司索赔”时，原引可支持内部决议要求。评审补充担保制度解释第7—9条，查相对人善意、无需决议的特定情形、上市公司特别规则等，再判断担保是否对公司发生效力及有无赔偿责任。并读[民法典总则](civil-code/general.md)与[合同编](civil-code/contracts.md)。[民法典担保制度解释](https://www.court.gov.cn/zixun/xiangqing/282721.html) |
-| 解散、清算、注销 | 查解散事由、清算义务主体、资产状况和债权人救济；进入破产程序时另查管理人权限、债权申报和受理后的执行安排。 |
+| Capital contributions, equity transfers, and shareholder liability | Check incorporation and transfer dates, subscribed contribution deadlines, contribution methods, paid-in amounts, and any conditions for calls on unpaid contributions or accelerated maturity. Distinguish shareholders' contributions to the company, liabilities between transfer parties, and creditors' claims. For existing companies, also check transitional provisions on registered capital registration and administration. |
+| Resolutions, shareholder rights, and management duties | Separately check the decision-making body, convening procedures, voting, substantive defects, and time limits for remedies; entitlement to bring claims differs for shareholders' information rights, dividends, derivative actions, and compensation for personal loss. Liability of directors, supervisors, and senior managers must be tied to specific duties, damage, and causation. |
+| Guarantees for others and acts exceeding representative authority | If the user cites Company Law Article 15 to claim that “without a resolution, the creditor can never recover from the company,” the original citation can support the internal resolution requirement. Add Articles 7–9 of the judicial interpretation on the Civil Code's security system as supplementary authorities; check the counterparty's good faith, specific circumstances in which no resolution is required, special rules for listed companies, and other requirements before assessing whether the guarantee binds the company and whether compensation is payable. Also read the Civil Code's [General Provisions](civil-code/general.md) and [Book on Contracts](civil-code/contracts.md). [Judicial interpretation on the Civil Code's security system](https://www.court.gov.cn/zixun/xiangqing/282721.html) |
+| Dissolution, liquidation, and deregistration | Check grounds for dissolution, who bears liquidation duties, assets, and creditors' remedies; if bankruptcy proceedings begin, separately check the administrator's powers, filing of claims, and enforcement arrangements after the court accepts the bankruptcy case. |
 
-**时间与评审补充**　涉及2024年7月1日前后事实的公司纠纷，定位出资、转让、决议、应当清算等具体时点。若原回答仅按起诉日期选新版公司法，补充法释〔2024〕7号中对应的规则，并说明新旧版本是否影响结果。[最高法关于公司法时间效力的规定](https://www.court.gov.cn/fabu/xiangqing/436481.html)
+**Timing and supplementary authorities** For company disputes involving facts before or after July 1, 2024, identify the specific dates of contributions, transfers, resolutions, when liquidation became required, and other relevant events. If the original answer selects the new Company Law solely by the filing date, add the relevant rules in Fa Shi [2024] No. 7 and explain whether the difference between versions affects the result. [SPC Provisions on the Temporal Application of the Company Law](https://www.court.gov.cn/fabu/xiangqing/436481.html)
 
-## 其他商事关系
+## Other commercial relationships
 
-| 事项 | 所需依据与事实 |
+| Matter | Required authorities and facts |
 |---|---|
-| 企业破产与重整 | 依企业破产法核对主体资格、申请与法院受理、担保债权和普通债权、申报、抵销、撤销和分配。仅有欠款事实不足以证明法院已受理破产。[企业破产法](https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_d60b9e67b65240e4a739143cca5b57a6.html) |
-| 合伙与其他企业 | 查普通或有限合伙、合伙人身份、入伙退伙时点和债务原因；企业内部约定与债权人对外请求分别核验。查合伙企业法、个人独资企业法及具体协议。 |
-| 证券、基金、期货、信托与保险 | 分别查证券法、证券投资基金法、期货和衍生品法、信托法、保险法。核实发行披露、适当性或保险给付的具体义务；保险辨认投保人、被保险人、受益人、保险事故与免责条款。 |
-| 票据与海商 | 查票据种类、签章、背书、到期、追索及期间；海运看主体、提单、运输区段、事故时点与海商法版本。涉外合同、条约和法院选择并查[涉外事项](procedure.md)。 |
+| Enterprise bankruptcy and reorganization | Under the Enterprise Bankruptcy Law, check entity eligibility, the application and court acceptance, secured and ordinary claims, filing of claims, set-off, avoidance, and distribution. Outstanding debts alone do not prove that a court has accepted a bankruptcy case. [Enterprise Bankruptcy Law](https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/bgt/art/2023/art_d60b9e67b65240e4a739143cca5b57a6.html) |
+| Partnerships and other enterprises | Check whether the partnership is general or limited, the partners' status, dates of admission and withdrawal, and the origin of debts; verify internal agreements separately from creditors' external claims. Check the Partnership Enterprise Law, Sole Proprietorship Enterprise Law, and specific agreements. |
+| Securities, funds, futures, trusts, and insurance | Check the Securities Law, Securities Investment Fund Law, Futures and Derivatives Law, Trust Law, and Insurance Law respectively. Verify specific duties concerning issuance disclosures, suitability, or payment of insurance benefits; for insurance, identify the policyholder, insured, beneficiary, insured event, and exclusion clauses. |
+| Negotiable instruments and maritime commerce | Check the instrument type, signatures or seals, endorsements, maturity, recourse, and applicable periods; for maritime transport, consider the parties, bill of lading, transport segments, incident date, and version of the Maritime Law. For foreign-related contracts, treaties, and choice of court, also check [Foreign-related matters](procedure.md). |
 
-各特别法按争点与事件日期检索全文，报告应定位到实际使用的条款。[国家法律法规数据库](https://flk.npc.gov.cn/)
+Search the full text of each special law by issue and event date; the report should pinpoint the provisions actually used. [National Database of Laws and Regulations](https://flk.npc.gov.cn/)

@@ -1,12 +1,12 @@
-# 第一编　总则（第1—204条）
+# Book One: General Provisions (Articles 1–204)
 
-先辨认民事主体、行为、权利与请求。涉及自然人、法人、非法人组织、民事权利、民事法律行为、代理、民事责任、诉讼时效和期间计算时从本编入手，再转入调整具体关系的分编。[民法典第一编](https://www.court.gov.cn/zixun/xiangqing/233181.html) · [总则编司法解释](https://www.court.gov.cn/zixun/xiangqing/347221.html)
+First identify the civil-law subjects, acts, rights, and claims. Start with this Book for natural persons, legal persons, unincorporated organizations, civil rights, civil juristic acts, agency, civil liability, limitation periods, and calculation of time periods; then turn to the Book governing the specific relationship. [Civil Code, Book One](https://www.court.gov.cn/zixun/xiangqing/233181.html) · [Judicial interpretation of the Book on General Provisions](https://www.court.gov.cn/zixun/xiangqing/347221.html)
 
-| 争点 | 核验方法 |
+| Issue | Verification method |
 |---|---|
-| 行为能力与监护 | 对照行为发生时的年龄或辨认能力、交易性质、是否纯获利益、是否适合其年龄智力，以及是否经同意或追认。参见第17—24、144—145条。涉及未成年人自行消费时，记录金额、用途及授权事实。 |
-| 意思表示与效力 | 区分成立、生效、可撤销、无效及效力待定。引用强制性规定主张无效时，核对该规定对民事行为效力的影响；再查返还、折价或过错赔偿的依据。参见第143—157条。 |
-| 法人与代理 | 查签约人的身份、权限、授权外观、相对人是否有理由相信有代理权及是否追认。分别定位法定代表人、职务代理、无权代理和表见代理规则；公司担保还需读[公司与商事](../companies.md)。参见第61、170—172条。 |
-| 诉讼时效与期间 | 查请求权种类、权利人何时知道或应当知道权利受损及义务人、催告或起诉等事实，分辨中止、中断、最长保护期间和不适用时效的请求。撤销权等权利的存续期间另查第199条。参见第188—201条。 |
+| Capacity for civil conduct and guardianship | Check age or ability to understand at the time of the act, the nature of the transaction, whether it confers only benefits, whether it is appropriate to the person's age and intelligence, and whether consent or ratification was given. See Articles 17–24 and 144–145. For purchases made independently by minors, record the amount, purpose, and facts concerning authorization. |
+| Declarations of intent and validity | Distinguish formation, taking effect, voidability, invalidity, and validity pending determination. When a mandatory provision is cited to assert invalidity, check its effect on the validity of the civil juristic act; then check the basis for restitution, monetary compensation in lieu of restitution, or compensation based on fault. See Articles 143–157. |
+| Legal persons and agency | Check the signatory's status, authority, appearance of authorization, whether the counterparty had reason to believe the person had authority, and whether ratification occurred. Locate separately the rules on legal representatives, agency in the performance of duties, unauthorized agency, and apparent agency; for corporate guarantees, also read [Company and commercial law](../companies.md). See Articles 61 and 170–172. |
+| Limitation periods and other time periods | Check the type of claim, when the right holder knew or should have known of the infringement and the obligor's identity, and facts such as demands for performance or the filing of proceedings. Distinguish suspension, interruption, the maximum protection period, and claims not subject to limitation. For the duration of rights such as the right of revocation, also check Article 199. See Articles 188–201. |
 
-**评审示例**　原回答称“超过三年，债权自动消灭”，原引第188条。该条可以说明一般期间，起算还缺事实。补充第192—193条后，可说明时效届满的抗辩效果及法院主动适用的限制；这会改变对债权状态的表述。[民法典第一编第九章](https://www.court.gov.cn/zixun/xiangqing/233181.html)
+**Review example** An answer states that “after three years, the debt is automatically extinguished,” citing Article 188. That article can establish the general limitation period, but facts needed to determine when it began are missing. Adding Articles 192–193 explains the defense available on expiry and the limits on courts applying limitation on their own initiative; this changes how the status of the debt should be described. [Civil Code, Book One, Chapter IX](https://www.court.gov.cn/zixun/xiangqing/233181.html)

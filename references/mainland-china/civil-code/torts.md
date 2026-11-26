@@ -1,12 +1,12 @@
-# 第七编　侵权责任（第1164—1258条）
+# Book Seven: Tort Liability (Articles 1164–1258)
 
-明确原回答主张谁向谁承担哪种责任。查受保护权益、行为或不作为、归责依据、损害、因果关系、多方行为及免责减责。各类请求所需事实不同，预防或停止危险的请求单独审查。[民法典第七编](https://www.court.gov.cn/zixun/xiangqing/233181.html) · [侵权责任编解释（一）](https://www.court.gov.cn/zixun/xiangqing/443891.html)
+Identify who the original answer asserts owes what liability to whom. Check the protected rights and interests, act or omission, basis of liability, damage, causation, conduct of multiple parties, and exemptions or reductions of liability. Different claims require different facts; examine requests to prevent or eliminate danger separately. [Civil Code, Book Seven](https://www.court.gov.cn/zixun/xiangqing/233181.html) · [Interpretation of the Book on Tort Liability (I)](https://www.court.gov.cn/zixun/xiangqing/443891.html)
 
-| 领域 | 核验要点 |
+| Area | Verification points |
 |---|---|
-| 一般规定、损害赔偿及责任主体 | 查过错、过错推定或法定无过错责任依据，分别评价共同、连带、按份或补充责任。对监护人、用人单位、网络服务提供者、经营场所和教育机构，先辨认身份及具体义务。 |
-| 产品、机动车交通事故、医疗损害 | 产品核查缺陷、销售者与生产者、受损对象；交通事故查使用与所有关系、过错及保险顺序；医疗损害核查说明义务、诊疗过错、病历、损害与因果关系。另查产品质量、道路交通安全、保险、医疗等特别规范。 |
-| 环境污染与生态破坏、高度危险、饲养动物、建筑物和物件损害 | 按侵害类型核对责任主体、举证分配、法定抗辩与追偿。环境案件还需查[生态环境法典及时间效力](../public-law.md)。高空抛物须区分已查明侵权人、可能加害人、建筑物管理人及其各自责任条件。 |
-| 赔偿范围与竞合 | 逐项对应损害项目、证明和计算依据。违约与侵权并存查第186条，精神损害、惩罚性赔偿各自核对特别要件。涉及隐私、肖像或健康并查[人格权](personality.md)。 |
+| General provisions, damages, and liable parties | Check the basis for fault-based liability, presumed fault, or statutory no-fault liability; separately assess joint, joint and several, proportionate, or supplementary liability. For guardians, employers, network service providers, business premises, and educational institutions, first identify their status and specific duties. |
+| Products, motor vehicle accidents, and medical harm | For products, check defects, sellers and producers, and the person or property harmed; for traffic accidents, check use and ownership, fault, and the order in which insurance responds; for medical harm, check disclosure duties, fault in diagnosis or treatment, medical records, damage, and causation. Also check special norms concerning product quality, road traffic safety, insurance, medical care, and related matters. |
+| Environmental pollution and ecological damage, ultra-hazardous activities, kept animals, and damage caused by buildings or objects | Check liable parties, allocation of the burden of proof, statutory defenses, and recourse according to the type of harm. For environmental cases, also check the [Ecological and Environmental Code and its temporal application](../public-law.md). For objects thrown from buildings, distinguish the identified tortfeasor, persons who may have caused the harm, and the building manager, and the respective conditions for their liability. |
+| Scope of damages and concurrent claims | Match each head of loss to its proof and calculation basis. Where breach of contract and tort coexist, check Article 186; separately verify the special requirements for emotional distress compensation and punitive damages. For privacy, likeness, or health, also check [Personality rights](personality.md). |
 
-**评审示例**　回答引用第1165条就断定“所有侵权均由受害人证明对方有过错”。补充第1166条及本案所属的特别责任条款后，可能需要改写归责依据；再单独说明损害、因果等事项由谁证明。[民法典第1165—1166条及第七编各特别章](https://www.court.gov.cn/zixun/xiangqing/233181.html)
+**Review example** An answer cites Article 1165 to conclude that “in every tort case, the victim must prove the other party's fault.” Adding Article 1166 and the special liability provisions relevant to the case may require revising the basis of liability; separately explain who must prove damage, causation, and other matters. [Civil Code, Articles 1165–1166 and the special chapters of Book Seven](https://www.court.gov.cn/zixun/xiangqing/233181.html)

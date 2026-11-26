@@ -1,34 +1,34 @@
-# 中国大陆法条与案例检索
+# Researching mainland Chinese legislation and cases
 
-## 有正文链接，先用 fetch 直读
+## If a full-text link is available, read it directly with fetch first
 
-将用户提供的官方正文 URL 直接传给 fetch，在返回文本中定位条款或裁判理由。以下材料用于演示定位方法，能否访问及实际取得的内容以本次工具返回为准。
+Pass the user-supplied official full-text URL directly to fetch, then locate the provision or judicial reasoning in the returned text. The following materials illustrate how to locate content; accessibility and the content actually obtained depend on the current tool response.
 
-| 定位示例 | 读取时应核对的位置与边界 |
+| Location example | What to check when reading, and limits |
 |---|---|
-| [《中华人民共和国民法典》公布文本，最高法 HTML](https://www.court.gov.cn/zixun/xiangqing/233181.html) | 定位第563条第1款第3项，核对迟延履行主要债务、催告和合理期限等条件。处理具体事件时另核适用时点。 |
-| [软件开发合同纠纷入库参考案例，最高法知识产权法庭 PDF](https://ipc.court.gov.cn/upload/file/2025/12/01/15/30/20251201153032_81336.pdf) | 按入库编号 `2023-13-2-146-003` 和案号（2019）最高法知民终433号核对材料身份，再定位关联索引中的旧《合同法》及民法典条款。报告注明实际取得的是案例库文本还是原裁判。 |
+| [Promulgated text of the Civil Code of the People's Republic of China, SPC HTML](https://www.court.gov.cn/zixun/xiangqing/233181.html) | Locate Article 563, paragraph 1, item 3, and check the conditions concerning delayed performance of a principal obligation, demand for performance, and a reasonable period. Separately check temporal applicability when addressing a specific event. |
+| [Database reference case concerning a software development contract dispute, SPC Intellectual Property Court PDF](https://ipc.court.gov.cn/upload/file/2025/12/01/15/30/20251201153032_81336.pdf) | Verify the material's identity using database number `2023-13-2-146-003` and case number (2019) Zui Gao Fa Zhi Min Zhong No. 433, then locate the former Contract Law and Civil Code provisions in the related references index. State in the report whether the material actually obtained is the case database text or the original decision. |
 
-## 缺少链接或直读失败，用 search 定位
+## If a link is missing or direct access fails, locate it with search
 
-有案号可搜 `site:ipc.court.gov.cn "最高法知民终433号"`；有法名和条号可搜 `site:court.gov.cn "中华人民共和国民法典" "第五百六十三条"`。打开官方命中项并核对文书类型、版本及上下文。PDF 断行导致整句查找失效时，换短词或读相邻页。只返回搜索摘要时，记“已定位，原文未核”。
+If a case number is available, search within `site:ipc.court.gov.cn` for “Zui Gao Fa Zhi Min Zhong No. 433”; if a law title and article number are available, search within `site:court.gov.cn` for “Civil Code of the People's Republic of China” and “Article 563.” Use the corresponding Chinese wording from the source for searches of Chinese-language texts. Open official results and check the document type, version, and context. If PDF line breaks prevent a full-sentence match, use shorter terms or read adjacent pages. If only a search snippet is returned, record “located; original text not verified.”
 
-按当前工具能力访问法规库、案例库或裁判文书网。实际返回 403、登录提示或空壳页时，记录失败范围，再查制定机关、发布法院或其他官方正文；首页可读不代表已取得目标文书，也不代表站内检索可用。需要操作站内字段的步骤留给具备交互能力的环境。只有 fetch 且无法取得目标正文时，写明具体缺口。
+Access legislation databases, case databases, or China Judgments Online according to the tools currently available. If the actual response is a 403 error, login prompt, or empty shell page, record the scope of the failure, then check the issuing authority, publishing court, or another official full-text source. Reading a homepage does not establish that the target document has been obtained or that the site's search works. Leave steps requiring interaction with site search fields to an environment with interactive capabilities. If only fetch is available and the target full text cannot be obtained, state the specific gap.
 
-过去的成功读取或失败结果另存于[历史访问观察](../search-observations.md)，仅供排查时参考，不据此跳过当前访问或将来源标为已核。
+Past successful reads and failed attempts are recorded separately in [Historical access observations](../search-observations.md). Use them only for troubleshooting; they do not justify skipping a current access attempt or marking a source as verified.
 
-## 找法律、法规与司法解释
+## Finding laws, regulations, and judicial interpretations
 
-1. **有法名或文号。** 先用正式名称或文号限定人大、制定机关或法院官网搜索可读的发布正文，确定文件类型、制定机关和适用时点；在所选文本中定位“第×条”、款、项和但书。司法解释可用全名或“法释〔年份〕序号”定位，再与最高人民法院或最高人民检察院的发布文本核对。涉及规章、地方实施标准时，按具体机关和地区查公报或官网。[国家法律法规数据库（人工核查入口）](https://flk.npc.gov.cn/)
-2. **只有问题。** 用“法律关系＋请求后果＋关键条件”检索。例如“买卖合同 迟延交货 催告 解除”，先找到民法典第五百六十三条，再分别核对第一款第三项、第四项和相邻条文。要回答解除怎样行使，还要另查通知等规则。站内定位不便时，可用 `site:court.gov.cn "第五百六十三条" "合理期限"` 找正式文本。[民法典合同编](https://www.court.gov.cn/zixun/xiangqing/233181.html)
-3. **核对版本。** 写下事实发生日、持续期间与施行日，核对修订、废止、过渡或溯及规定。查“旧法正式名称＋当时年份”及相关时间效力解释；若文件页面仅提供现行文本，换全国人大常委会公报、制定机关发布文本或历史版本。报告引用实际适用版本。[民法典时间效力规定](https://www.court.gov.cn/zixun/xiangqing/282051.html)
+1. **A law title or document number is available.** First search the NPC, issuing authority, or court's official website using the formal title or document number for a readable published text. Establish the instrument type, issuing authority, and applicable period; locate the article, paragraph, item, and proviso in the selected text. Judicial interpretations can be located using their full title or “Fa Shi [year] serial number,” then checked against the text published by the SPC or the Supreme People's Procuratorate. Use the source's Chinese wording for Chinese-language searches. For rules or local implementation standards, check the gazette or website of the specific authority and locality. [National Database of Laws and Regulations (manual verification entry point)](https://flk.npc.gov.cn/)
+2. **Only the question is available.** Search using “legal relationship + relief sought + key conditions.” For example, “sale contract delayed delivery demand for performance termination”: first locate Civil Code Article 563, then separately check paragraph 1, items 3 and 4, and neighboring provisions. Explaining how to exercise a right of termination also requires checking notice and other rules. If locating content within the site is difficult, search within `site:court.gov.cn` for “Article 563” and “reasonable period,” using the corresponding Chinese wording to find the official text. [Civil Code, Book on Contracts](https://www.court.gov.cn/zixun/xiangqing/233181.html)
+3. **Check the version.** Record when the facts occurred, their duration, and the effective date; check amendments, repeal, transitional provisions, and retroactivity. Search for “formal title of former law + relevant year” and relevant interpretations on temporal application. If a document page provides only the current text, use the NPC Standing Committee Gazette, the issuing authority's published text, or a historical version. Cite the version actually applicable in the report. [Provisions on the temporal application of the Civil Code](https://www.court.gov.cn/zixun/xiangqing/282051.html)
 
-## 找到与命题匹配的裁判
+## Finding decisions that match the proposition
 
-| 手头线索 | 检索路径 |
+| Available lead | Research path |
 |---|---|
-| 有审判案号或当事人名称 | 先以完整案号限定法院官网查公开文书；无命中时换半角括号、当事人简称，或用年份、法院、案由组合。有交互环境时可在中国裁判文书网用案号和法院字段补查。比对文书首部、审级、日期、裁判理由和主文。别把一审当事人的主张写成二审结论。[中国裁判文书网检索帮助](https://wenshu.court.gov.cn/website/wenshu/181109AWZA70BFK4/index.html) |
-| 有指导案例号、入库编号或争点 | 按编号或案名限定法院官网搜索案例库公开文本；有交互环境时再用案例库站内字段筛选。只有事实时组合案由和关键差异，例如“计算机软件开发合同 迟延履行 需求变更”。从结果的“关联索引”找原审判案号，核对二审、再审等后续情况。入库编号和审判案号应分别记录。[人民法院案例库](https://rmfyalk.court.gov.cn/) · [检索帮助](https://rmfyalk.court.gov.cn/helper.html) |
-| 引用来自“典型案例”或媒体摘要 | 查“发布法院＋批次标题＋案例名称”，在法院的发布页定位该案及“裁判结果／理由”。再查它是否有正式指导案例号、入库编号或独立裁判原文。报告明确核到的层次。 |
+| Court case number or party name | First search the court's official website using the complete case number for a publicly available decision. If there are no results, try half-width parentheses, abbreviated party names, or a combination of year, court, and cause of action. In an interactive environment, supplement the search using the case-number and court fields on China Judgments Online. Compare the document heading, level of proceedings, date, reasoning, and operative part. Do not present a first-instance party's allegation as an appellate conclusion. [China Judgments Online search help](https://wenshu.court.gov.cn/website/wenshu/181109AWZA70BFK4/index.html) |
+| Guiding Case number, database number, or issue | Search the court's official website by number or case name for the publicly available database text; in an interactive environment, also filter using the database's own fields. If only facts are available, combine the cause of action and key distinctions, such as “computer software development contract delayed performance changes to requirements,” using Chinese equivalents for Chinese-language searches. Find the original court case number in the result's “Related references index” and check subsequent appeals, retrials, and other developments. Record the database number and court case number separately. [People's Courts Case Database](https://rmfyalk.court.gov.cn/) · [Search help](https://rmfyalk.court.gov.cn/helper.html) |
+| Citation comes from a “typical case” or media summary | Search for “publishing court + collection title + case name”; locate the case and its “Outcome/Reasoning” on the court's publication page. Then check whether it has an official Guiding Case number, database number, or separately published original decision. State clearly in the report which source level was verified. |
 
-**无法打开或没有命中。** 改查发布法院、公报、正式案例库文本或用户提供的副本。只取得案例库文本或发布摘要时，标明该来源及已核到的内容；未取得完整判决或后续审级时，写明具体缺口。公开检索无结果本身不足以认定案例虚构或全国没有相反裁判。
+**The source cannot be opened, or no results are found.** Try the publishing court, a gazette, the official case database text, or a user-supplied copy. If only the database text or a published summary is obtained, identify that source and the content verified; specify gaps where the full judgment or subsequent proceedings have not been obtained. An unsuccessful public search alone does not establish that a case is fabricated or that no contrary decisions exist nationwide.

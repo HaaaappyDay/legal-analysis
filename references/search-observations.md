@@ -1,24 +1,24 @@
-# 历史访问观察
+# Historical Access Observations
 
-本文件保留从[中国大陆检索指南](mainland-china/search.md)和[澳大利亚检索指南](australia/search.md)迁出的历史测试描述，用于排查访问方式差异。此次迁移未重新访问这些站点；下表是原指南的观察摘要，不是本次复测结果，也不是对当前可用性或法律效力的保证。
+This file preserves historical test descriptions moved from the [Mainland China search guide](mainland-china/search.md) and the [Australia search guide](australia/search.md), for diagnosing differences between access methods. These sites were not revisited during this migration; the table below summarizes observations from the original guides, not retest results from this migration or guarantees of current availability or legal effect.
 
-原指南将部分样本标注为 **2026-11-24**，环境仅描述为“当前 Agent 环境”或“本工具”，没有记录具体工具版本、网络配置或完整请求日志。未单独记载日期或请求 URL 的观察按未知处理，不补推环境或时间。
+The original guides dated some samples **2026-11-24**, describing the environment only as the “current Agent environment” or “this tool,” without recording specific tool versions, network configurations, or complete request logs. Where an observation did not separately record a date or request URL, treat it as unknown; do not infer the environment or time.
 
-## 原指南记录
+## Records from the original guides
 
-| 材料或入口 | 原记录的测试日期 | 原记录的访问方式与结果 | 已读范围及局限 |
+| Material or entry point | Test date recorded originally | Access method and result recorded originally | Content read and limitations |
 |---|---|---|---|
-| [民法典公布文本，最高法 HTML](https://www.court.gov.cn/zixun/xiangqing/233181.html) | 2026-11-24 | 正文 URL 经 fetch 成功直读。 | 记录称读到第563条第1款第3项；具体事件仍需核对适用时点。 |
-| [软件开发合同纠纷案例库 PDF](https://ipc.court.gov.cn/upload/file/2025/12/01/15/30/20251201153032_81336.pdf) | 2026-11-24 | PDF 经 fetch 成功直读。 | 记录称读到入库编号 `2023-13-2-146-003`，第3页列出（2019）最高法知民终433号、旧《合同法》及关联民法典条款；取得的是案例库文本。 |
-| [国家法律法规数据库首页](https://flk.npc.gov.cn/) | 2026-11-24（原文称同次测试） | 首页直读返回 403。 | 仅说明当次首页读取失败，不能推断其他入口或当前环境也失败。 |
-| 人民法院案例库、裁判文书网首页 | 2026-11-24（原文称同次测试） | 可以读取首页；原观察未附完整请求 URL。 | 未由此验证站内字段操作或目标文书可读。 |
-| [Competition and Consumer Act 附表2 HTML](https://www.legislation.gov.au/C2004A00109/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_4/document_4.html) | 2026-11-24 | 正文 URL 经 fetch 成功直读。 | 记录称读到2025年2月21日版 s 260(1)；仅为该历史版本，不代表当前适用文本。 |
-| [ACCC v TPG [2013] HCA 54 判决 PDF](https://www.hcourt.gov.au/sites/default/files/eresources/2013/HCA/54.pdf) | 2026-11-24 | PDF 经 fetch 成功直读。 | 记录称读到第45段的多数意见；后案状态仍需另查。 |
-| NSW 租赁法现行 HTML 与[历史 PDF](https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-04-25/act-2010-042) | 原观察未单独记载 | 抽查文本直读返回 403；搜索后打开官方 PDF 索引副本可读，把同一 URL 直接交给 fetch 仍返回 403。 | 搜索词为 `site:legislation.nsw.gov.au "Residential Tenancies Act 2010" "urgent repairs" April 2025`。记录称读到第48–50页 ss 62–64，页脚版本区间为2024年12月13日至2025年5月18日；现行 HTML 的具体请求 URL 未保留。 |
-| LawCite 查询入口 | 原观察未单独记载 | 返回 403；原观察未附具体请求 URL。 | 只说明当次查询入口失败，不证明当前不可用，也不证明原案没有后续引用。 |
+| [Promulgated Civil Code text, Supreme People's Court HTML](https://www.court.gov.cn/zixun/xiangqing/233181.html) | 2026-11-24 | The text URL was successfully read directly via fetch. | The record states that Article 563(1)(3) was read; the applicable date for a specific event still needs to be checked. |
+| [People's Courts Case Database PDF on a software development contract dispute](https://ipc.court.gov.cn/upload/file/2025/12/01/15/30/20251201153032_81336.pdf) | 2026-11-24 | The PDF was successfully read directly via fetch. | The record states that database entry `2023-13-2-146-003` was read, with page 3 listing (2019) Zui Gao Fa Zhi Min Zhong No. 433, the former Contract Law, and related Civil Code provisions; the material obtained was the case database text. |
+| [National Database of Laws and Regulations homepage](https://flk.npc.gov.cn/) | 2026-11-24 (the original text described this as the same test) | A direct read of the homepage returned 403. | This shows only that the homepage read failed on that occasion; it does not establish failure at other entry points or in the current environment. |
+| People's Courts Case Database and China Judgments Online homepages | 2026-11-24 (the original text described this as the same test) | The homepages could be read; the original observation did not include complete request URLs. | This did not verify whether site fields could be operated or target judgments could be read. |
+| [Competition and Consumer Act Schedule 2 HTML](https://www.legislation.gov.au/C2004A00109/2025-02-21/2025-02-21/text/original/epub/OEBPS/document_4/document_4.html) | 2026-11-24 | The text URL was successfully read directly via fetch. | The record states that s 260(1) of the 21 February 2025 version was read; this was only that historical version and does not establish the currently applicable text. |
+| [ACCC v TPG [2013] HCA 54 judgment PDF](https://www.hcourt.gov.au/sites/default/files/eresources/2013/HCA/54.pdf) | 2026-11-24 | The PDF was successfully read directly via fetch. | The record states that the majority's reasoning at paragraph 45 was read; subsequent case history still requires a separate search. |
+| Current NSW tenancy legislation HTML and [historical PDF](https://legislation.nsw.gov.au/view/whole/pdf/inforce/2025-04-25/act-2010-042) | Not separately recorded in the original observation | Direct reads of sampled text returned 403; opening the indexed copy of the official PDF from search results made it readable, while passing the same URL directly to fetch still returned 403. | The search query was `site:legislation.nsw.gov.au "Residential Tenancies Act 2010" "urgent repairs" April 2025`. The record states that ss 62–64 on pages 48–50 were read, with the footer identifying the version period as 13 December 2024 to 18 May 2025; the specific request URL for the current HTML was not retained. |
+| LawCite query entry point | Not separately recorded in the original observation | Returned 403; the original observation did not include the specific request URL. | This shows only that the query entry point failed on that occasion; it does not establish that it is currently unavailable or that the original case has no subsequent citations. |
 
-## 使用与维护
+## Use and maintenance
 
-- 实际任务仍按当前工具能力尝试访问，并根据本次返回的正文、摘要或错误记录核验范围；历史成功不算本次已核，历史失败不构成跳过来源的理由。
-- 补充新的观察时记录实际测试日期、已知的工具与环境、具体 URL 或查询、读取方式、实际结果及已读范围；未知项明确保留，不编造精确环境。
-- 历史观察保留原日期和范围，新测试另列记录。诊断记录不替代交付中的来源核验记录，也不要求每次任务重新测试本表所有站点。
+- In actual tasks, still attempt access using the current tools' capabilities, and record the verification scope based on the text, summaries, or errors returned in that task; historical success does not count as current verification, and historical failure does not justify skipping a source.
+- When adding new observations, record the actual test date, known tool and environment details, specific URL or query, reading method, actual result, and content read; explicitly retain unknowns rather than inventing precise environment details.
+- Retain the original dates and scope of historical observations, and record new tests separately. Diagnostic records do not replace source verification records in deliverables, nor must every site in this table be retested for every task.

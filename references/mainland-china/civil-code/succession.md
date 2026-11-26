@@ -1,12 +1,12 @@
-# 第六编　继承（第1119—1163条）
+# Book Six: Succession (Articles 1119–1163)
 
-先查被继承人死亡时点和能处分的个人财产范围，再识别遗赠扶养协议、遗嘱、遗赠、法定继承和遗产处理的具体争点。夫妻共有或家庭共有财产涉及先析产，同一财产可能仅有部分进入遗产。[民法典第六编](https://www.court.gov.cn/zixun/xiangqing/233181.html) · [继承编解释（一）](https://www.court.gov.cn/zixun/xiangqing/282091.html)
+First check the date of the decedent's death and the scope of personal property the decedent could dispose of, then identify the specific issues concerning legacy-support agreements, wills, legacies, intestate succession, and estate administration. Matrimonial or family common property must first be partitioned; only part of the same asset may enter the estate. [Civil Code, Book Six](https://www.court.gov.cn/zixun/xiangqing/233181.html) · [Interpretation of the Book on Succession (I)](https://www.court.gov.cn/zixun/xiangqing/282091.html)
 
-| 争点 | 核验路径 |
+| Issue | Verification path |
 |---|---|
-| 谁取得哪些遗产 | 查协议处分范围及履行、遗嘱涉及的份额、遗漏财产和继承人身份。第1123条为入口，遗赠扶养协议并查第1158条。部分财产另有合法安排时，不能用整笔遗产套一个顺序。 |
-| 法定继承 | 核实亲属关系、顺序、代位继承条件、丧失或恢复继承权、遗产份额及对受扶养者的照顾。涉及继承开始后继承人死亡，再判断转继承，勿混用代位继承。 |
-| 遗嘱、遗赠与放弃 | 核查立遗嘱时的能力与真实意思、遗嘱形式、见证资格与份数、日期、冲突处分及必要份额。分清继承人与受遗赠人：第1124条分别规定放弃继承和接受遗赠的表示及效果。 |
-| 遗产管理与清偿 | 查管理人及权限、遗产范围、税债与可分配财产。要求继承人清偿债务时核对第1161条关于所得遗产实际价值及自愿偿还等条件。跨境财产并读[涉外事项](../procedure.md)。 |
+| Who receives which estate assets | Check the property covered by an agreement and its performance, the shares covered by a will, omitted property, and the heirs' status. Start with Article 1123; for legacy-support agreements, also check Article 1158. If some property is subject to a separate lawful arrangement, do not apply a single order of priority to the entire estate. |
+| Intestate succession | Verify kinship, order of succession, conditions for succession by representation, loss or restoration of inheritance rights, estate shares, and provision for dependants. If an heir dies after succession opens, assess transmission of that heir's entitlement; do not confuse it with succession by representation. |
+| Wills, legacies, and renunciation | Check capacity and genuine intent when the will was made, its form, witnesses' eligibility, the number of copies, dates, conflicting dispositions, and required reserved shares. Distinguish heirs from legatees: Article 1124 separately governs declarations and consequences of renouncing inheritance and accepting a legacy. |
+| Estate administration and payment of debts | Check the administrator and their authority, the estate's scope, taxes and debts, and distributable assets. When heirs are asked to repay debts, check Article 1161's conditions concerning the actual value of inherited property and voluntary repayment. For cross-border assets, also read [Foreign-related matters](../procedure.md). |
 
-**司法实践**　最高法公布的严某诉某保险公司人身保险合同纠纷案中，被保险人没有指定受益人，也没有第一、第二顺序继承人。当地集体经济组织放弃案涉权益，法院支持了对死者扶养较多的严某的请求。若原回答据此主张“照料过死者的人都能领取保险金”，先查保险法第42条所涉保险金归入遗产的条件，再查民法典第1131条有关酌分遗产的条件，并核对案件时点。该来源为最高法发布摘要，其中“基本案情”“裁判情况”和“典型意义”可以分别定位。[第二批继承纠纷典型案例，案例三](https://www.court.gov.cn/zixun/xiangqing/449671.html)
+**Judicial practice** In the personal insurance contract dispute *Yan v. an Insurance Company*, published by the SPC, the insured had designated no beneficiary and had no heirs in either the first or second order of intestate succession. The local collective economic organization relinquished its rights and interests in the matter, and the court upheld the claim of Yan, who had provided substantial support to the deceased. If an answer uses this case to claim that “anyone who cared for the deceased can receive the insurance proceeds,” first check the conditions under Insurance Law Article 42 for proceeds to become part of the estate, then the conditions under Civil Code Article 1131 for a discretionary allocation from the estate, and verify the case's dates. This source is an SPC publication summary; its “Basic facts,” “Adjudication,” and “Significance” sections can be located separately. [Second collection of typical succession dispute cases, Case Three](https://www.court.gov.cn/zixun/xiangqing/449671.html)

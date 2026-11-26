@@ -1,44 +1,44 @@
-# 中国大陆法律问答评审指南
+# Guide to reviewing legal Q&A on mainland China
 
-逐题从用户要作出的判断选入口。一道题可以同时涉及合同效力、公司授权和财产登记。分别找到支持各项结论的规则，再回到原问题说明这些结论怎样结合。内地与香港、澳门、台湾地区或外国存在连接时，先核实哪个争点适用内地法，见[程序与涉外事项](procedure.md)。
+For each question, choose an entry point based on the determination the user needs to make. A single question may involve contractual validity, corporate authority, and property registration. Find the rules supporting each conclusion, then return to the original question and explain how those conclusions fit together. Where there are connections between mainland China and Hong Kong, Macao, Taiwan, or a foreign country, first verify which issues are governed by mainland law; see [Procedure and foreign-related matters](procedure.md).
 
-## 民法典七编及附则
+## The seven Books of the Civil Code and Supplementary Provisions
 
-| 用户问到的事项 | 优先读取 |
+| Subject of the user's question | Read first |
 |---|---|
-| 自然人、监护、法人、民事行为能力、代理、诉讼时效 | [第一编　总则](civil-code/general.md) |
-| 房屋登记、共有、业主、土地权利、抵押、质押、占有 | [第二编　物权](civil-code/property.md) |
-| 订约、履约、解除、违约、典型合同、保证、无因管理、不当得利 | [第三编　合同](civil-code/contracts.md) |
-| 生命健康、姓名、肖像、名誉、隐私、个人信息 | [第四编　人格权](civil-code/personality.md) |
-| 结婚、夫妻财产债务、亲子、离婚、收养 | [第五编　婚姻家庭](civil-code/family.md) |
-| 法定继承、遗嘱、遗赠、遗赠扶养协议、遗产管理及债务 | [第六编　继承](civil-code/succession.md) |
-| 损害赔偿、共同侵权、特殊侵权、责任主体与抗辩 | [第七编　侵权责任](civil-code/torts.md) |
-| 2021 年前后发生的事实、旧法引文、跨期履行 | [附则与时间效力](civil-code/temporal.md) |
+| Natural persons, guardianship, legal persons, capacity for civil conduct, agency, limitation periods | [Book One: General Provisions](civil-code/general.md) |
+| Housing registration, co-ownership, property owners, land rights, mortgages, pledges, possession | [Book Two: Rights in Rem](civil-code/property.md) |
+| Contract formation, performance, termination, breach, nominate contracts, guarantees, management of another's affairs without a mandate, unjust enrichment | [Book Three: Contracts](civil-code/contracts.md) |
+| Life and health, names, likeness, reputation, privacy, personal information | [Book Four: Personality Rights](civil-code/personality.md) |
+| Marriage, matrimonial property and debts, parent–child relationships, divorce, adoption | [Book Five: Marriage and Family](civil-code/family.md) |
+| Intestate succession, wills, legacies, legacy-support agreements, estate administration and debts | [Book Six: Succession](civil-code/succession.md) |
+| Damages, joint torts, specific categories of tort, liable parties and defenses | [Book Seven: Tort Liability](civil-code/torts.md) |
+| Facts arising before or after 2021, citations to former law, performance spanning the transition | [Supplementary Provisions and temporal application](civil-code/temporal.md) |
 
-## 其他法律领域
+## Other areas of law
 
-| 争点 | 入口 |
+| Issue | Entry point |
 |---|---|
-| 公司、股东、企业组织、对外担保、破产、证券、保险、票据、海商 | [公司与商事](companies.md) |
-| 消费、产品、竞争、知识产权、平台、网络与数据、金融财税、对外贸易 | [市场交易与经济监管](markets.md) |
-| 劳动用工、劳动争议、社保、工伤、特定群体权益与社会保障 | [劳动与社会法](social.md) |
-| 宪法与国家机构、行政许可、处罚、强制、信息公开、自然资源、生态环境、公共服务 | [公法与行政监管](public-law.md) |
-| 罪与非罪、罪名、责任和量刑、侦查、起诉、审判、刑罚执行 | [刑法与刑事程序](criminal.md) |
-| 民事与行政诉讼、调解、仲裁、复议、国家赔偿、执行、涉外法律适用 | [争议解决、程序与涉外事项](procedure.md) |
+| Companies, shareholders, business organizations, guarantees for others, bankruptcy, securities, insurance, negotiable instruments, maritime commerce | [Company and commercial law](companies.md) |
+| Consumer transactions, products, competition, intellectual property, platforms, networks and data, finance and taxation, foreign trade | [Market transactions and economic regulation](markets.md) |
+| Employment, labor disputes, social insurance, work-related injuries, rights of specific groups and social protection | [Labor and social law](social.md) |
+| The Constitution and state institutions, administrative licensing, penalties, compulsion, information disclosure, natural resources, ecology and environment, public services | [Public law and administrative regulation](public-law.md) |
+| Criminality, offenses, responsibility and sentencing, investigation, prosecution, trial, execution of sentences | [Criminal law and criminal procedure](criminal.md) |
+| Civil and administrative litigation, mediation, arbitration, administrative reconsideration, state compensation, enforcement, governing law in foreign-related matters | [Dispute resolution, procedure, and foreign-related matters](procedure.md) |
 
-遇到目录未细分的事项，提取法律关系、拟采取的行动、主管机关和地域，按主题限定人大或制定机关官网找特别法，再查实施法规、地方规定及时间效力。例如学校处分、药品上市或航运许可虽都涉及行政监管，各自的权限和程序仍须落到具体法律文件。上述分类用于检索，一题可以使用多个入口。[国家法律法规数据库（人工核查入口）](https://flk.npc.gov.cn/)
+For matters not separately listed, identify the legal relationship, proposed action, competent authority, and locality. Search by subject on the National People's Congress (NPC) or issuing authority's official website for the applicable special legislation, then check implementing regulations, local provisions, and temporal application. For example, disciplinary action by a school, authorization to market a medicine, and shipping permits all involve administrative regulation, but the powers and procedures for each must still be traced to specific legal instruments. These categories guide research; a question may use several entry points. [National Database of Laws and Regulations (manual verification entry point)](https://flk.npc.gov.cn/)
 
-## 核验原引用，发现补充依据
+## Verify original citations and identify supplementary authorities
 
-按案号找原裁判、按争点找参考案例或查旧版法条时，见[中国大陆法条与案例检索](search.md)，其中有可复用的检索词和定位示例。
+For finding the original decision by case number, reference cases by issue, or historical statutory provisions, see [Researching mainland Chinese legislation and cases](search.md), which provides reusable search terms and location examples.
 
-1. 保留原题号、原引用编号和被评价的原句。区分用户给定事实、当事人主张、案例已认定事实和回答新增的假设。题目问合法性、申请步骤或争议结果时，对引用的要求各有不同。
-2. 查发文机关、文件类型、适用地域、条款段落及上下文。以法名或文号找人大、制定机关或法院官网的具体发布文本；规章和地方实施口径到制定机关公报或官网核验。识别征求意见稿、修订决定和正式施行文本。办事指南能支持办事流程，收费、处罚或权利限制还要核实相应权限与依据。[国家法律法规数据库（人工核查入口）](https://flk.npc.gov.cn/) · [立法法](https://hubca.miit.gov.cn/zwgk/zcwj/flfg/art/2023/art_617433c825534c34a1104d67a6254ba2.html)
-3. 标出事件、行为持续、权利行使和程序启动的关键日期，查当时的适用版本及过渡规则。规范之间看似冲突时，先核对调整对象、授权、规范层级和时点，再核验冲突处理规则。一般原则不足以单独证明具体处罚、金额或期限。
-4. 对每项关键主张说明原引充分支持、部分支持、不支持或与主张矛盾；仅有背景关联时说明它未支持什么。另行记录来源核验状态及已核范围；没有取得足以判断的内容时，支持关系记“暂无法判断”，不因未能核验就判为不支持。发现可补充、限定或纠正结论的依据，在 Markdown 报告中标为“评审补充”，列出条款或裁判段落、可复核链接、对应主张及其变化。反向依据也应写出。原回答即使结论正确，原引的缺口仍应保留。
+1. Preserve the original question number, citation numbers, and statement being evaluated. Distinguish user-supplied facts, parties' allegations, facts established in a case, and assumptions added by the answer. Citation requirements differ depending on whether the question concerns legality, application procedures, or the outcome of a dispute.
+2. Check the issuing authority, instrument type, territorial scope, provisions and paragraphs, and context. Use the title or document number to find the specific published text on the NPC, issuing authority, or court's official website; verify rules and local implementation approaches against the issuing authority's gazette or website. Distinguish consultation drafts, amendment decisions, and formally effective texts. Service guides can support procedural instructions; fees, penalties, or restrictions on rights also require verification of the relevant powers and legal basis. [National Database of Laws and Regulations (manual verification entry point)](https://flk.npc.gov.cn/) · [Legislation Law](https://hubca.miit.gov.cn/zwgk/zcwj/flfg/art/2023/art_617433c825534c34a1104d67a6254ba2.html)
+3. Identify key dates for events, continuing conduct, the exercise of rights, and the commencement of proceedings; check the version applicable at the time and transitional rules. Where norms appear to conflict, first check their subject matter, statutory authorization, hierarchy, and timing, then verify the rules for resolving conflicts. General principles alone do not establish a specific penalty, amount, or deadline.
+4. For each key proposition, state whether the original citation fully supports, partially supports, does not support, or contradicts it; where it provides only background, explain what it fails to support. Record source verification status and the scope verified separately; where insufficient content has been obtained to assess support, record “cannot yet assess,” rather than treating inability to verify as lack of support. Label authorities that supplement, qualify, or correct a conclusion as “Supplementary authorities” in the Markdown report, giving the provisions or decision paragraphs, reproducible links, the relevant proposition, and how it changes. Include contrary authorities. Even if the original answer's conclusion is correct, retain the identified gaps in its citations.
 
-## 司法实践与典型案例
+## Judicial practice and typical cases
 
-- 记录案件名称、案号或发布编号、法院、日期、审级、来源性质和裁判理由的位置。区分当事人陈述、法院认定、发布者提炼的要旨。只读到官方发布摘要时，写明核验的是摘要；原裁判、后续审级或当前收录状态未知时，指出未核实项。
-- 最高法指导性案例要查指导案例编号、裁判要点、是否仍具指导作用及本题是否类似。入库参考案例查入库编号、类似事实与裁判理由。最高法规程第十九、二十一、二十九条分别涉及入库类似案例的使用、裁判说理和指导性案例的适用规定。对典型案例集记录发布机关、批次和具体案例；“典型”这个发布标签本身不能证明其同时具有指导性案例身份。[类案检索说明](https://www.court.gov.cn/zixun/xiangqing/243991.html) · [人民法院案例库建设运行工作规程](https://www.court.gov.cn/zixun/xiangqing/431662.html) · [人民法院案例库](https://rmfyalk.court.gov.cn/)
-- 回答声称“法院通常如此处理”时，区分规则命题、单案类比和频率判断。比较法域、审级、时期、程序、事实与相反裁判。只有一件同类裁判时，可以说明存在该种处理及其理由，频率仍待证实。领域页中的案例也是检索线索，引用前核对相关时点、法律版本和后续发展。
+- Record the case name, case number or publication number, court, date, level of proceedings, nature of the source, and location of the court's reasoning. Distinguish parties' submissions, court findings, and key points distilled by the publisher. If only an official published summary has been read, state that the summary was verified; identify any unverified original decision, subsequent proceedings, or current inclusion status.
+- For Supreme People's Court (SPC) Guiding Cases, check the Guiding Case number, adjudication points, whether the case retains its guiding status, and its similarity to the question. For reference cases included in the database, check the database number, similar facts, and judicial reasoning. Articles 19, 21, and 29 of the SPC's working procedures respectively address the use of similar database cases, judicial reasoning, and the application of Guiding Cases. For collections of typical cases, record the issuing authority, collection, and specific case; the publication label “typical” does not itself establish Guiding Case status. [Explanation of similar-case research](https://www.court.gov.cn/zixun/xiangqing/243991.html) · [Working Procedures for the Development and Operation of the People's Courts Case Database](https://www.court.gov.cn/zixun/xiangqing/431662.html) · [People's Courts Case Database](https://rmfyalk.court.gov.cn/)
+- When an answer claims that “courts usually handle this in this way,” distinguish a statement of a legal rule, an analogy to an individual case, and a claim about frequency. Compare jurisdictions, court levels, periods, procedures, facts, and contrary decisions. One similar decision can establish that a particular approach has been taken and explain its reasoning; its frequency remains unproven. Cases on the subject pages are also research leads: check the relevant dates, statutory versions, and subsequent developments before citing them.

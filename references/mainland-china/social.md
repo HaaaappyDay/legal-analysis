@@ -1,13 +1,13 @@
-# 劳动、社会保险与社会保障
+# Labor, social insurance, and social protection
 
-先识别劳动者、用人单位、用工单位、平台、承包人和社保经办机构。实际工作安排、管理控制、报酬来源、工作地点及履行期间决定需要核查哪些规则。[国家法律法规数据库](https://flk.npc.gov.cn/)
+First identify the worker, employer, labor-user entity, platform, contractor, and social insurance agency. Actual work arrangements, managerial control, source of remuneration, workplace, and period of performance determine which rules need checking. [National Database of Laws and Regulations](https://flk.npc.gov.cn/)
 
-| 争点 | 法源与核验 |
+| Issue | Sources and verification |
 |---|---|
-| 劳动关系、合同与待遇 | 结合劳动法、劳动合同法及实施条例查招聘、劳动管理、工资和考勤。约定名称只是证据之一。派遣、非全日制和平台用工各自核对；劳动报酬、加班、休假还要查工时制度与当地当期标准。 |
-| 解除、终止、经济补偿或赔偿 | 查解除方、实际事由、通知与送达、规章制度、程序、工龄及基数。分别审查继续履行、经济补偿、违法解除赔偿及彼此关系。公司内部人事通知只能支持已经作出的表示。 |
-| 劳动争议途径与时效 | 查争议类型、仲裁前置、时效起点及中断中止、工资拖欠的特别规则、裁决类型和各方救济途径。劳动争议调解仲裁法第27条可作为起点。[劳动争议调解仲裁法](https://chinajob.mohrss.gov.cn/h5/c/2022-07-15/356212.shtml) |
-| 社保、工伤与职业病 | 依社会保险法、工伤保险条例、职业病防治法等，分开核查劳动关系、事故时空及原因、工伤认定申请、劳动能力鉴定和待遇支付主体。对行政认定不服时并查[复议与诉讼](procedure.md)。 |
-| 特定群体与社会服务 | 未成年人、妇女、老年人、残疾人、退役军人等保护分别查对应特别法；涉及救助、医保、养老服务、教育或就业歧视，核实资格、主管机关、地方条件和请求形式。家暴、抚养、赡养并读[婚姻家庭](civil-code/family.md)。 |
+| Employment relationship, contract, and entitlements | Check recruitment, labor management, wages, and attendance against the Labor Law, Labor Contract Law, and its implementing regulations. The label used in an agreement is only one piece of evidence. Check labor dispatch, part-time employment, and platform work separately; remuneration, overtime, and leave also require checking the working-hours system and local standards for the relevant period. |
+| Rescission, termination, statutory severance, or compensation | Check who ended the employment, the actual grounds, notice and service, internal rules, procedure, length of service, and calculation base. Separately assess continued performance, statutory severance, compensation for unlawful dismissal, and their interaction. An internal personnel notice can establish only the declaration already made. |
+| Labor dispute procedures and limitation periods | Check the dispute type, prior arbitration requirement, commencement and interruption or suspension of limitation, special rules on unpaid wages, award type, and each party's avenues of relief. Article 27 of the Labor Dispute Mediation and Arbitration Law is a starting point. [Labor Dispute Mediation and Arbitration Law](https://chinajob.mohrss.gov.cn/h5/c/2022-07-15/356212.shtml) |
+| Social insurance, work-related injuries, and occupational diseases | Under the Social Insurance Law, Regulations on Work-Related Injury Insurance, Law on the Prevention and Control of Occupational Diseases, and related instruments, separately check the employment relationship, accident time, location and cause, application for recognition of a work-related injury, assessment of working capacity, and the party responsible for benefits. For challenges to administrative determinations, also check [Reconsideration and litigation](procedure.md). |
+| Specific groups and social services | Check the relevant special laws for protection of minors, women, older persons, persons with disabilities, veterans, and other groups. For assistance, medical insurance, eldercare services, education, or employment discrimination, verify eligibility, competent authorities, local conditions, and forms of relief. For domestic violence, child support, or support of elderly parents, also read [Marriage and family](civil-code/family.md). |
 
-**评审示例**　“单位没签书面合同，劳动者不能申请劳动仲裁。”既要核查事实劳动关系的证据，也要核查争议类型及仲裁条件。若原引只涉及书面合同订立，补充劳动合同法第7、10条和劳动争议调解仲裁法第2条，说明各条分别支持哪一步。[国家法律法规数据库](https://flk.npc.gov.cn/) · [劳动争议调解仲裁法](https://chinajob.mohrss.gov.cn/h5/c/2022-07-15/356212.shtml)
+**Review example** “The employer did not sign a written contract, so the worker cannot apply for labor arbitration.” Check both evidence of a de facto employment relationship and the dispute type and conditions for arbitration. If the original citation concerns only the conclusion of a written contract, add Labor Contract Law Articles 7 and 10 and Labor Dispute Mediation and Arbitration Law Article 2, explaining which step each supports. [National Database of Laws and Regulations](https://flk.npc.gov.cn/) · [Labor Dispute Mediation and Arbitration Law](https://chinajob.mohrss.gov.cn/h5/c/2022-07-15/356212.shtml)

@@ -1,55 +1,55 @@
-# 澳大利亚法律问答评审指南
+# Guide to reviewing Australian legal questions and answers
 
-先识别用户要确定的权利、义务、救济或手续。写明相关主体、行为或决定发生地、法律事实和程序日期，以及问题可能进入的法院或审裁机构。逐争点识别 Commonwealth（Cth）、州或领地的法律；案件在州法院审理也可能涉及联邦法。比较不同州的规则时，逐州核对立法、适用事实和版本。
+First identify the rights, obligations, remedies or procedures the user wants to establish. State the relevant parties, where the conduct or decision occurred, the legally relevant facts and procedural dates, and the court or tribunal that might hear the matter. Identify the applicable Commonwealth (Cth), state or territory law for each issue; a case heard in a state court may also involve federal law. When comparing rules across states, check each state's legislation, relevant facts and applicable version separately.
 
-## 先判断州或领地会不会改变答案
+## First determine whether the state or territory changes the answer
 
-| 题目需要什么结论 | 怎样处理地区信息 |
+| Conclusion required by the question | How to address location information |
 |---|---|
-| 联邦条文的含义 | 如问 Australian Consumer Law 第260条怎样界定商品的重大故障，可直接核对附表及相关版本。若另问“向哪里申请”，再为程序子问确定州或领地。[合同与消费者](contracts-consumers.md) |
-| 地方权利、金额、期限或办理机构 | 找使当地法律适用的事实，如出租房所在地、遗产所在地、交易涉及的地块。题目仅写“澳大利亚”而原引标有 NSW 时，说明该引文至多支持新州范围；金额或期限无法全国化。缺少的地方事实只影响相应子问。[财产、人身与家庭](private-law.md) · [州税](tax-super.md) |
-| 联邦和地方制度都可能适用 | 州名有时仍不足以选法。例如西澳解雇要结合雇主性质判断劳动关系体系；刑事题要从所控罪名及授权法判断联邦或地方犯罪，再从审理法院和阶段判断程序及证据规则。[劳动](public-work.md) · [刑事与证据](proceedings.md) |
+| Meaning of a federal provision | If the question asks how Australian Consumer Law s 260 defines a major failure in goods, consult the Schedule and relevant version directly. If it also asks “where should I apply?”, then establish the state or territory for that procedural sub-question. [Contracts and consumers](contracts-consumers.md) |
+| Local rights, amounts, time limits or responsible bodies | Identify the facts that engage local law, such as the location of rented premises, an estate or land involved in a transaction. If the question says only “Australia” but the original citation is marked NSW, explain that it supports a conclusion for New South Wales at most; an amount or time limit cannot be generalised nationwide. Missing local facts affect only the relevant sub-question. [Property, personal rights and family matters](private-law.md) · [State taxes](tax-super.md) |
+| Both federal and local systems may apply | The state alone may still be insufficient to select the applicable law. For example, a dismissal in Western Australia requires consideration of the employer's nature to identify the industrial relations system; a criminal question requires the charge and enabling legislation to determine whether the offence is federal or local, followed by the court and procedural stage to determine procedural and evidentiary rules. [Employment](public-work.md) · [Criminal law and evidence](proceedings.md) |
 
-如用户问全国规则，检验原引能否支撑其声称的范围；如明确比较两地，按同一争点分别查两地依据。某州裁判解释联邦法或统一立法时，按本页的判例规则判断其作用，不能仅凭法院所在州排除。
+If the user asks about a nationwide rule, test whether the original citation supports that claimed scope; if the user expressly compares two jurisdictions, examine the authorities in each for the same issue. Where a state judgment interprets federal law or uniform legislation, assess its effect using the case law rules on this page; do not exclude it solely because of the state in which the court sits.
 
-## 按法律领域选入口
+## Choose an entry point by field of law
 
-下表按问答中的争点组织。联邦法院的专业分工可用于发现海事、原住民土地权、税务等独立领域；它描述该院的案件工作，家庭、继承、住宅租赁等问题还要查相应法院及州、领地制度。联邦法规登记册也支持按主管部门和时点检索。[联邦法院 National Practice Areas](https://www.fedcourt.gov.au/law-and-practice/national-practice-areas) · [联邦法规登记册的检索方式](https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-use-browse-search-and-advanced-search)
+The table below is organised by the issues in the question and answer. The Federal Court's specialist practice areas can help identify distinct fields such as admiralty, native title and taxation; they describe that court's caseload, while family, succession and residential tenancy questions also require examination of the relevant courts and state or territory systems. The Federal Register of Legislation also supports searches by administering department and point in time. [Federal Court National Practice Areas](https://www.fedcourt.gov.au/law-and-practice/national-practice-areas) · [Federal Register of Legislation search methods](https://www.legislation.gov.au/help-and-resources/using-the-legislation-register/how-to-use-browse-search-and-advanced-search)
 
-| 法律领域 | 由问题选择指南 |
+| Field of law | Select a guide according to the question |
 |---|---|
-| 宪法与联邦制、行政法、信息公开 | 立法权限、联邦与州法冲突、决定权限、复核、FOI → [政府与权利](government-rights.md) |
-| 人权、反歧视与平等机会 | 受保护特征、就业或服务场景、例外、投诉与司法救济 → [政府与权利](government-rights.md) |
-| 移民、难民保护与公民身份 | 签证类别、拒签或取消、保护义务、入籍、复核 → [移民与公民身份](migration.md) |
-| 合同法与消费者保护 | 成立、履行、终止、消费者保证、误导广告 → [合同与消费者](contracts-consumers.md) |
-| 侵权法与损害赔偿 | 过失、因果、诽谤、人身损害、特别赔偿计划 → [财产、人身与家庭](private-law.md) |
-| 衡平法、信托与返还 | 受信义务、受益权、违信获利、错误给付与救济 → [衡平、信托与返还](equity.md) |
-| 财产法、土地登记与住宅租赁 | 产权、共有、抵押、出租维修、收回占有 → [财产、人身与家庭](private-law.md) |
-| 家庭与儿童、继承与遗产管理 | 离婚、子女安排、保护令、遗嘱、遗产管理、家庭供养请求 → [财产、人身与家庭](private-law.md)；受托财产另查[衡平与信托](equity.md) |
-| 原住民土地权与文化遗产 | native title、土地权立法、未来行为、协议、遗产保护 → [土地、环境与原住民权利](land-environment.md) |
-| 环境、规划、能源与自然资源 | 项目审批、地方规划、污染、矿权与用水许可 → [土地、环境与原住民权利](land-environment.md) |
-| 公司、合伙与破产 | 主体身份、授权、董事义务、公司外部管理、个人破产 → [企业与市场](business.md) |
-| 银行金融、信贷、保险与担保交易 | 牌照、保单、融资及动产担保优先权 → [企业与市场](business.md) |
-| 竞争法、知识产权、隐私与数字平台 | 市场行为、商标、版权、个人信息、内容移除与监管 → [企业与市场](business.md) |
-| 劳动与产业关系、职业安全与工伤 | 全国或州雇用体系、最低条件、解雇、工伤与监管 → [劳动与职业安全](public-work.md) |
-| 税法、养老金与雇主缴费 | 税务居民、税种、评税异议、superannuation 与死亡给付 → [税务与养老金](tax-super.md) |
-| 社会保障、残障、卫生与教育 | Centrelink、NDIS、医疗投诉、医疗过失、教育调整 → [社会保障与公共服务](social-services.md) |
-| 海事海商、运输、海关与国际贸易 | 租船、货运、船舶扣押、关税归类、进口条件 → [海事、运输与贸易](maritime-trade.md) |
-| 刑法、刑事程序与证据 | 罪名、州或联邦管辖、证明责任、证据可采、保释与量刑 → [刑事、争议解决与证据](proceedings.md) |
-| 民事程序、仲裁、救济与国际私法 | 受理、上诉、选法、境外送达、承认和执行 → [刑事、争议解决与证据](proceedings.md) |
+| Constitutional law and federalism, administrative law, freedom of information | Legislative power, inconsistency between Commonwealth and state law, decision-making powers, review, FOI → [Government and rights](government-rights.md) |
+| Human rights, anti-discrimination and equal opportunity | Protected attributes, employment or service contexts, exceptions, complaints and judicial remedies → [Government and rights](government-rights.md) |
+| Migration, refugee protection and citizenship | Visa classes, refusal or cancellation, protection obligations, acquisition of citizenship, review → [Migration and citizenship](migration.md) |
+| Contract law and consumer protection | Formation, performance, termination, consumer guarantees, misleading advertising → [Contracts and consumers](contracts-consumers.md) |
+| Tort law and damages | Negligence, causation, defamation, personal injury, special compensation schemes → [Property, personal rights and family matters](private-law.md) |
+| Equity, trusts and restitution | Fiduciary duties, beneficial interests, profits from breaches of fiduciary duty, mistaken payments and remedies → [Equity, trusts and restitution](equity.md) |
+| Property law, land registration and residential tenancies | Title, co-ownership, mortgages, repairs to rented premises, recovery of possession → [Property, personal rights and family matters](private-law.md) |
+| Family and children, succession and estate administration | Divorce, parenting arrangements, protection orders, wills, estate administration, family provision claims → [Property, personal rights and family matters](private-law.md); for trust property, also consult [equity and trusts](equity.md) |
+| Indigenous land rights and cultural heritage | Native title, land rights legislation, future acts, agreements, heritage protection → [Land, environment and Indigenous rights](land-environment.md) |
+| Environment, planning, energy and natural resources | Project approvals, local planning, pollution, mining rights and water licences → [Land, environment and Indigenous rights](land-environment.md) |
+| Companies, partnerships and insolvency | Entity status, authority, directors' duties, corporate external administration, personal bankruptcy → [Business and markets](business.md) |
+| Banking and finance, credit, insurance and secured transactions | Licensing, insurance policies, financing and personal property security priorities → [Business and markets](business.md) |
+| Competition law, intellectual property, privacy and digital platforms | Market conduct, trade marks, copyright, personal information, content removal and regulation → [Business and markets](business.md) |
+| Employment and industrial relations, workplace safety and workers' compensation | National or state employment systems, minimum conditions, dismissal, workplace injury and regulation → [Employment and workplace safety](public-work.md) |
+| Tax law, superannuation and employer contributions | Tax residency, tax types, objections to assessments, superannuation and death benefits → [Tax and superannuation](tax-super.md) |
+| Social security, disability, health and education | Centrelink, NDIS, healthcare complaints, clinical negligence, educational adjustments → [Social security and public services](social-services.md) |
+| Admiralty and maritime law, transport, customs and international trade | Chartering, carriage of goods, ship arrest, tariff classification, import conditions → [Maritime law, transport and trade](maritime-trade.md) |
+| Criminal law, criminal procedure and evidence | Charges, state or federal jurisdiction, burdens of proof, admissibility, bail and sentencing → [Criminal law, dispute resolution and evidence](proceedings.md) |
+| Civil procedure, arbitration, remedies and private international law | Commencing proceedings, appeals, choice of law, service abroad, recognition and enforcement → [Criminal law, dispute resolution and evidence](proceedings.md) |
 
-同时出现多个领域时，按法律后果拆题。例如矿产项目取得州许可后能否开工，需要分别审查资源许可、环境审批、原住民权利以及可能适用的文化遗产保护。缺少州别时，保留联邦部分的判断，并说明地方依据要等哪个事实才能选定。目录以外的事项按主管机构和法律关系检索特别法及实施文书。
+When several fields arise, divide the question by legal consequence. For example, whether a mining project can commence after obtaining a state permit requires separate examination of resource licensing, environmental approvals, Indigenous rights and potentially applicable cultural heritage protection. If the state is unspecified, retain the assessment of the federal aspects and explain which fact is needed to select the local authorities. For matters outside this directory, search for specific legislation and implementing instruments by responsible agency and legal relationship.
 
-## 从引文找到适用文本
+## Find the applicable text from the citation
 
-联邦、州及领地的入口选择、按中立引注找判决、按争点找判例和追查后案，见[澳大利亚立法与判决检索](search.md)。
+For federal, state and territory entry points, finding judgments by neutral citation, finding cases by issue and tracing later cases, see [Searching Australian legislation and judgments](search.md).
 
-- 联邦法到 Federal Register of Legislation 查 Act、Schedule、section、subsection、legislative instrument 和编纂版本。记录条文开始施行、相关修订、过渡和保留条款；获御准、登记、开始施行和编纂日期可能不同。引用格式例如 *Competition and Consumer Act 2010* (Cth) sch 2 s 259(3)。[联邦法规登记册的版本与施行指引](https://www.legislation.gov.au/help-and-resources/understanding-legislation/reading-legislation)
-- 州及领地按 NSW、Vic、Qld、WA、SA、Tas、ACT、NT 到各自官方法规库查 point-in-time 版本。统一或示范法律应核对当地采纳法、修改及施行时间。若未知州别，先说明全国层面能确定的内容，再列出什么需要州别才能回答。[议会法律顾问办公室汇总的各地官方法规库](https://www.opc.gov.au/links/legislation-states-territories-and-new-zealand)
-- 部门网页、监管指南和法院表格能说明办事流程；法定权利、裁判权限和期限须查授权法和规则。新闻、案例摘要、Bills、explanatory memoranda 和议会演讲须按材料实际作用评价。原引链接进入整部法或搜索页时，补出能核实的具体版本、条款及段落。
+- For federal law, use the Federal Register of Legislation to find the Act, Schedule, section, subsection, legislative instrument and compilation. Record commencement, relevant amendments, and transitional and savings provisions; Royal Assent, registration, commencement and compilation dates may differ. An example citation is *Competition and Consumer Act 2010* (Cth) sch 2 s 259(3). [Federal Register of Legislation guide to versions and commencement](https://www.legislation.gov.au/help-and-resources/understanding-legislation/reading-legislation)
+- For states and territories, use the official NSW, Vic, Qld, WA, SA, Tas, ACT or NT legislation database to find the point-in-time version. For uniform or model laws, check local adopting legislation, modifications and commencement. If the state is unknown, first explain what can be established nationally, then list what requires the state to be identified. [Official local legislation databases listed by the Office of Parliamentary Counsel](https://www.opc.gov.au/links/legislation-states-territories-and-new-zealand)
+- Departmental webpages, regulatory guidance and court forms can explain procedures; statutory rights, adjudicative powers and time limits require examination of the enabling legislation and rules. Assess news, case summaries, Bills, explanatory memoranda and parliamentary speeches according to their actual function. If the original link leads to an entire Act or a search page, supply the specific version, provisions and paragraphs that can be verified.
 
-## 原回答引用判决时
+## When the original answer cites a judgment
 
-1. 记录案名、中立引注（如 `[2013] HCA 54`）、法院、日期、相关段落和意见作者。核对原判决及上诉结果，从多数法官共同采纳且决定结果的理由里提取命题。并列意见、异议、当事人意见与编辑摘要分别标明。
-2. 确定本题法院与原判法院的关系。高等法院处于上诉体系顶端。其他州中级上诉法院解释统一立法或普通法的问题、以及高院经过审慎考虑的附带意见，须具体核验遵循规则，避免用“外州”或“附带意见”直接排除。查后续判决如何对待该命题，以及涉案条文是否已修订。[高等法院的职能](https://www.hcourt.gov.au/about/overview-high-court/operation-high-court) · [Farah Constructions v Say-Dee [2007] HCA 22，第134–135段](https://www.hcourt.gov.au/sites/default/files/eresources/2007/HCA/22.pdf)
-3. 明确原判的关键事实、本题相似或不同之处及可能改变的结论。原引为摘要时定位全文；若仅核到摘要，报告中如实标记。发现更直接的判例、适用条文或限制原判的后续材料，作为“评审补充”给出段落和影响。
+1. Record the case name, neutral citation (such as `[2013] HCA 54`), court, date, relevant paragraphs and author of the reasons. Check the original judgment and any appeal outcome, and extract propositions from the reasoning shared by the majority and necessary to the result. Identify separate concurring reasons, dissents, parties' submissions and editorial summaries distinctly.
+2. Determine the relationship between the court relevant to the question and the court that delivered the cited judgment. The High Court stands at the apex of the appellate system. For decisions of intermediate appellate courts in other states on uniform legislation or the common law, and for seriously considered dicta of the High Court, verify the specific rules governing their authority; do not dismiss them simply as “interstate” or “obiter”. Check how later judgments have treated the proposition and whether the relevant provision has been amended. [Role of the High Court](https://www.hcourt.gov.au/about/overview-high-court/operation-high-court) · [Farah Constructions v Say-Dee [2007] HCA 22, paras 134–135](https://www.hcourt.gov.au/sites/default/files/eresources/2007/HCA/22.pdf)
+3. Identify the material facts of the original decision, the similarities and differences in the present question, and how they may affect the conclusion. If the original citation is a summary, locate the full text; if only the summary has been verified, state that accurately in the report. Present more directly relevant cases, applicable provisions or later materials limiting the original decision as “Supplementary authorities”, with paragraph references and their effect.

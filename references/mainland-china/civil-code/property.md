@@ -1,12 +1,12 @@
-# 第二编　物权（第205—462条）
+# Book Two: Rights in Rem (Articles 205–462)
 
-按通则、所有权、用益物权、担保物权、占有五部分定位。先画出“谁对哪项财产主张哪种权利”，再查设立、变动、公示、对抗、顺位和救济分别需要什么事实。[民法典第二编](https://www.court.gov.cn/zixun/xiangqing/233181.html) · [物权编司法解释（一）](https://www.court.gov.cn/zixun/xiangqing/282101.html)
+Locate the issue within the five parts: general provisions, ownership, usufructuary rights, security rights in rem, and possession. First map “who asserts what right over which property,” then check the facts required for creation, changes, publicity, enforceability against third parties, priority, and remedies. [Civil Code, Book Two](https://www.court.gov.cn/zixun/xiangqing/233181.html) · [Judicial interpretation of the Book on Rights in Rem (I)](https://www.court.gov.cn/zixun/xiangqing/282101.html)
 
-| 争点 | 决定性事实与引文核验 |
+| Issue | Decisive facts and citation checks |
 |---|---|
-| 买卖、登记与交付 | 房屋核对登记簿、合同和例外规则，动产核对交付方式与特殊登记。引用第209条回答所有权变动后，另查第215条判断合同效力。买卖义务读[合同编](contracts.md)。 |
-| 所有权、共有、相邻和建筑物区分所有权 | 识别专有或共有部分、约定及登记、处分还是一般管理、表决事项与比例。核查第278、301条等与具体事项相配的规则。占用人、使用人和所有人可能不同。 |
-| 用益物权 | 依土地性质及权利类型，分别核对承包经营权、建设用地使用权、宅基地使用权、居住权、地役权的取得和对抗条件。居住权重点核查第366—371条及登记情况；涉征收或用地审批并查[行政监管](../public-law.md)。 |
-| 担保、顺位与占有 | 查标的、债权、登记或交付、设立时点和实现条件。动产抵押与不动产抵押的登记效果分别查第403、402条；保证属人的担保，转[合同编](contracts.md)。占有保护另查占有事实与请求种类。 |
+| Sale, registration, and delivery | For housing, check the register, contract, and exceptions; for movables, check the method of delivery and special registration requirements. After citing Article 209 on transfer of ownership, separately check Article 215 for contractual validity. For sale obligations, read the [Book on Contracts](contracts.md). |
+| Ownership, co-ownership, neighboring relationships, and unit ownership in buildings | Identify exclusive and common portions, agreements and registration, whether the act is disposal or ordinary management, and the matters voted on and voting thresholds. Check Article 278, Article 301, and other rules matching the specific matter. The occupier, user, and owner may be different persons. |
+| Usufructuary rights | Depending on the nature of the land and the right, separately check the conditions for acquisition and enforceability against third parties of rights to contractual management of land, rights to use land for construction, rights to use rural residential land, rights of habitation, and easements. For habitation rights, focus on Articles 366–371 and registration; for expropriation or land-use approval, also check [Administrative regulation](../public-law.md). |
+| Security, priority, and possession | Check the collateral, secured claim, registration or delivery, date of creation, and conditions for enforcement. Check Articles 403 and 402 respectively for the effects of registration of mortgages over movables and immovables; guarantees are personal security, so turn to the [Book on Contracts](contracts.md). For protection of possession, separately check the facts of possession and type of claim. |
 
-**评审示例**　“买房未过户，所以合同无效”把物权变动和合同效力合在一起。原引登记规则可以支持所有权分析；评审补充第215条，核实双方是否另有约定、法律有无特别规定，再评价合同是否生效。[民法典第209、215条](https://www.court.gov.cn/zixun/xiangqing/233181.html)
+**Review example** “The house purchase has not been registered, so the contract is invalid” conflates changes in rights in rem with contractual validity. The original registration rule can support the ownership analysis; add Article 215 as a supplementary authority, verify whether the parties agreed otherwise or special statutory provisions apply, then assess whether the contract has taken effect. [Civil Code, Articles 209 and 215](https://www.court.gov.cn/zixun/xiangqing/233181.html)
