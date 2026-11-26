@@ -9,3 +9,6 @@
 # Locally generated legal reviews
 /legal-qa-review.md
 /legal-qa-review-[0-9]*.md
+/legal-answer.md
+/legal-answer-[0-9]*.md
+/.legal-analysis/
