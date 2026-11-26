@@ -1,6 +1,6 @@
 # Legal Q&A and Citation Review
 
-`legal-analysis` is an English-language Agent Skill primarily for reviewing legal questions and answers concerning mainland China and Australia. It can also answer legal questions directly. Providing a question and answer selects review mode, with citations optional; providing only a question, with or without reference materials, selects direct-answer mode. For multiple questions, the mode is selected individually.
+`legal-analysis` is an English-language Agent Skill primarily for reviewing legal questions and answers concerning mainland China, Australia and New Zealand. It can also answer legal questions directly. Providing a question and answer selects review mode, with citations optional; providing only a question, with or without reference materials, selects direct-answer mode. For multiple questions, the mode is selected individually.
 
 A review separately explains whether each claim is sound, what the original citations support, and how far source verification has progressed. If the original answer is seriously deficient, the review is retained and a fully rewritten answer is supplied. Direct answers and reviews share the same rules for jurisdiction, relevant dates, research and verification of authorities.
 
@@ -47,5 +47,6 @@ When a handoff is needed, a separate task directory is created under `.legal-ana
 |---|---|---|
 | Mainland China | [The Civil Code's seven Books and supplementary provisions, company and commercial law, employment, administrative law, criminal law, procedure and other subjects](references/mainland-china/index.md) | [Find legislation, judicial interpretations, cases and historical versions](references/mainland-china/search.md) |
 | Australia | [Federal, state and territory legal subjects and applicable context](references/australia/index.md) | [Find legislation, judgment paragraphs, historical versions and subsequent cases](references/australia/search.md) |
+| New Zealand | [National and local law, Māori land and Treaty issues, specialist courts and tribunals](references/new-zealand/index.md) | [Find dated legislation, judgments and later judicial treatment](references/new-zealand/search.md) |
 
 During review, check the applicable version against the date of the events in question. When maintaining subject guides, include official sources and specific provisions or judgment paragraphs, and explain which facts would change the application of a case. Shared review standards are in [SKILL.md](SKILL.md).

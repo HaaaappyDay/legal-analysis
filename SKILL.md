@@ -1,6 +1,6 @@
 ---
 name: legal-analysis
-description: Use when reviewing legal questions, answers and citations, verifying legal authorities, or answering legal questions without an existing answer to review, especially for mainland China and Australia.
+description: Use when reviewing legal questions, answers and citations, verifying legal authorities, or answering legal questions without an existing answer to review, especially for mainland China, Australia and New Zealand.
 ---
 
 # Legal Q&A and Citation Review
@@ -33,12 +33,13 @@ Identify potentially applicable jurisdictions, the dates of the relevant events 
 
 - For mainland China, read the [mainland China guide](references/mainland-china/index.md) and the relevant subject pages.
 - For Australia, read the [Australia guide](references/australia/index.md), determine whether a state or territory must also be identified, then read the relevant subject pages.
+- For New Zealand, use the [New Zealand guide](references/new-zealand/index.md) to identify the applicable enactment, any local or settlement-specific instrument, and the court or tribunal with power to grant the remedy.
 
 Where facts or location are unclear, complete the parts that can be determined first. If different assumptions would change the outcome, set out the alternative analyses and missing facts. For other jurisdictions, explain the coverage of the local reference materials and verify primary authorities for the applicable jurisdiction.
 
 ## Where to research and when to use cases
 
-Where original citations are supplied, first use their identifiers to locate the original sources. When only a question is supplied or the original citations provide insufficient coverage, build searches from the missing legal propositions, decisive facts and jurisdiction. Follow the [mainland China legislation and case research guide](references/mainland-china/search.md) or the [Australian legislation and judgment research guide](references/australia/search.md) to check the relevant date, legal status and subsequent developments. Link the user to the text actually verified and the relevant provisions or reasons for judgment.
+Where original citations are supplied, first use their identifiers to locate the original sources. When only a question is supplied or the original citations provide insufficient coverage, build searches from the missing legal propositions, decisive facts and jurisdiction. Use the research guide for [mainland China](references/mainland-china/search.md), [Australia](references/australia/search.md) or [New Zealand](references/new-zealand/search.md) to check the relevant date, legal status and subsequent developments. Link the user to the text actually verified and the relevant provisions or reasons for judgment.
 
 Obtain evidence according to the tools' actual capabilities. If a full-text URL is available, first open it with a webpage-reading tool (fetch). To discover original texts, historical versions or subsequent cases, use web search (search) with the legislation title, case number or neutral citation to find candidates, then open the official HTML or PDF and locate the relevant text. With fetch alone, follow public links from the user's URLs or the entry points in the guides. With search alone, if only snippets are returned, mark the source "search snippet only; original text not verified". A search box, login prompt or version selector on a webpage does not mean the tool has submitted a query or selected a version. If direct access returns 403, record that direct access to that URL failed. If search is available, open an indexed copy of the same official document from the results or find another officially published text. Mark a scope as verified only after actually reading the material's identifying details, applicable date and relevant provisions or judgment paragraphs. Mark snippets, shell pages and error pages "original text not verified". A dated version must not be presented as the current version.
 
