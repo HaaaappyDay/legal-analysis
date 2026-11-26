@@ -23,7 +23,7 @@ Use the legal-analysis skill to review the following question and answer, and sa
 
 Jurisdiction and relevant time: mainland China, 2023.
 Question: I have signed a contract to buy a home, but the transfer of title has not yet been registered. Is the contract valid?
-Original answer: The sale contract is invalid because title to the home has not yet been transferred.
+Original answer: The sale contract is invalid because the transfer of title has not yet been registered.
 Original citation: [1] Article 209 of the Civil Code of the People's Republic of China.
 ```
 
